@@ -1,0 +1,5 @@
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDTO\bin\Debug\DTO.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDTO\bin\Debug\DTO.pdb
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDTO\obj\Debug\DTO.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDTO\obj\Debug\DTO.pdb

@@ -1,0 +1,10 @@
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsLogica\bin\Debug\DLL.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsLogica\bin\Debug\DLL.pdb
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsLogica\bin\Debug\DAL.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsLogica\bin\Debug\DTO.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsLogica\bin\Debug\DAL.pdb
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsLogica\bin\Debug\DTO.pdb
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsLogica\obj\Debug\DLL.csprojAssemblyReference.cache
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsLogica\obj\Debug\DLL.csproj.CopyComplete
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsLogica\obj\Debug\DLL.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsLogica\obj\Debug\DLL.pdb

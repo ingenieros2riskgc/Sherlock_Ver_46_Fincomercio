@@ -1,0 +1,8 @@
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDatos\bin\Release\DAL.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDatos\bin\Release\DAL.pdb
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDatos\bin\Release\DTO.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDatos\bin\Release\DTO.pdb
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDatos\obj\Release\DAL.csprojAssemblyReference.cache
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDatos\obj\Release\DAL.csproj.CopyComplete
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDatos\obj\Release\DAL.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDatos\obj\Release\DAL.pdb
