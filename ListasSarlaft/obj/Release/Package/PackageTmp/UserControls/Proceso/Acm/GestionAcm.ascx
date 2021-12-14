@@ -30,11 +30,12 @@
 
 function ShowButton(){
     document.getElementById('<%=btnGuardar.ClientID %>').style.display = "inline";
-    
+    document.getElementById('<%=btnGuardar.ClientID %>').style.display = "inline";
     }
    
 function UnShowButton(){
     document.getElementById('<%=btnGuardar.ClientID %>').style.display = "none";
+    document.getElementById('<%=btnUpdate.ClientID %>').style.display = "none";
 return true;
 }
 
@@ -886,6 +887,9 @@ return true;
                                 <asp:ImageButton ID="btnGuardar" runat="server" ImageUrl="~/Imagenes/Icons/guardar.png" ToolTip="Guardar" OnClick="BtnGuardar_Click" ValidationGroup="Validacion"
                                     OnClientClick="UnShowButton()"
                                     />
+                                <asp:ImageButton ID="btnUpdate" runat="server" ImageUrl="~/Imagenes/Icons/guardar.png" ToolTip="Guardar" OnClick="btnUpdate_Click" ValidationGroup="Validacion"
+                                    Visible="false" OnClientClick="UnShowButton()"
+                                    />
                                 <asp:ImageButton ID="btnCancelar" runat="server" ImageUrl="~/Imagenes/Icons/cancel.png" ToolTip="Cancelar" OnClick="BtnCancelar_Click" />
                                 <asp:ImageButton ID="btnDescargarAcm" runat="server" ImageUrl="~/Imagenes/Icons/pdfImg.jpg" ToolTip="Descargar" OnClick="BtnDescargarAcm_Click" Visible="false" />
                             </td>
@@ -922,5 +926,6 @@ return true;
         <asp:PostBackTrigger ControlID="btnDescargarAcm" />
         <asp:PostBackTrigger ControlID="imbAddAdjunto" />
         <asp:PostBackTrigger ControlID="gvDocsAdjuntados" />
+        <asp:PostBackTrigger ControlID="btnUpdate" />
     </Triggers>
 </asp:UpdatePanel>

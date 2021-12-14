@@ -352,6 +352,7 @@ namespace ListasSarlaft.UserControls.Eventos
                 loadDDLClaseRiesgo();
                 loadDDLEstado();
                 loadDDLCanal();
+                loadDDLClasificacionN3();
                 loadDDLGenerador();
                 loadDDLLineaNegocio();
                 mtdLoadDDLEmpresa();
@@ -757,7 +758,22 @@ namespace ListasSarlaft.UserControls.Eventos
                 Mensaje("Error al cargar Estado. " + ex.Message);
             }
         }
-
+        private void loadDDLClasificacionN3()
+        {
+            try
+            {
+                DataTable dtInfo = new DataTable();
+                dtInfo = cRiesgo.loadDDLClasificacionN3();
+                for (int i = 0; i < dtInfo.Rows.Count; i++)
+                {
+                    ddlClasificacionN3.Items.Insert(i + 1, new ListItem(dtInfo.Rows[i]["Nombre"].ToString().Trim(), dtInfo.Rows[i]["Id"].ToString()));
+                }
+            }
+            catch (Exception ex)
+            {
+                Mensaje("Error al cargar Estado. " + ex.Message);
+            }
+        }
         private void loadDDLGenerador()
         {
             try
@@ -1884,7 +1900,7 @@ namespace ListasSarlaft.UserControls.Eventos
                         DropDownList6.SelectedValue.ToString(), DropDownList11.SelectedValue.ToString(), lblIdDependencia1.Text, DropDownList33.SelectedValue.ToString(), 
                         DropDownList34.SelectedValue.ToString(), DropDownList8.SelectedValue.ToString(), DropDownList15.SelectedValue.ToString(), 
                        DropDownList16.SelectedValue.ToString(), TextBox53.Text.Trim(), Label55.Text, DropDownList23.SelectedItem.Value, 
-                        DropDownList29.SelectedItem.Value, TextBox17.Text.Trim());
+                        DropDownList29.SelectedItem.Value, TextBox17.Text.Trim(), ddlClasificacionN3.SelectedItem.Value);
                     if (lblIdDependencia1.Text != "" && string.IsNullOrEmpty(lblExisteResponsableNotificacion.Text))
                         boolEnviarNotificacion(9, Convert.ToInt16("0"), Convert.ToInt16(lblIdDependencia1.Text.Trim()), "",
                             "Ha sido asignado como responsable del Evento: <br/><B>Código Evento: </B>" + Label55.Text.Trim() +
@@ -1897,7 +1913,7 @@ namespace ListasSarlaft.UserControls.Eventos
                         DropDownList6.SelectedValue.ToString().Trim(), DropDownList11.SelectedValue.ToString().Trim(), lblIdDependencia1.Text, DropDownList33.SelectedValue.ToString().Trim(), 
                         DropDownList34.SelectedValue.ToString().Trim(), DropDownList8.SelectedValue.ToString().Trim(), DropDownList15.SelectedValue.ToString().Trim(), 
                        DropDownList16.SelectedValue.ToString().Trim(), Sanitizer.GetSafeHtmlFragment(TextBox53.Text.Trim()), Label55.Text, DropDownList23.SelectedItem.Value, 
-                        DropDownList29.SelectedItem.Value, Sanitizer.GetSafeHtmlFragment(TextBox17.Text.Trim()));
+                        DropDownList29.SelectedItem.Value, Sanitizer.GetSafeHtmlFragment(TextBox17.Text.Trim()), ddlClasificacionN3.SelectedItem.Value);
                 if (lblIdDependencia1.Text != "")
                     boolEnviarNotificacion(9, Convert.ToInt16("0"), Convert.ToInt16(lblIdDependencia1.Text.Trim()), "",
                            "Se ha realizado la modificacion del Evento: <br /><B>Código Evento: </B>" + Label55.Text.Trim() +
@@ -2383,6 +2399,7 @@ namespace ListasSarlaft.UserControls.Eventos
             grid.Columns.Add("MinContab", typeof(string));
             grid.Columns.Add("amContab", typeof(string));
             grid.Columns.Add("IdJerarquia", typeof(string));
+            grid.Columns.Add("idClasificacionN3", typeof(string));
             InfoGridEventos = grid;
             GridView1.DataSource = InfoGridEventos;
             GridView1.DataBind();
@@ -2477,7 +2494,8 @@ namespace ListasSarlaft.UserControls.Eventos
                                                             dtInfo.Rows[rows]["HoraContab"].ToString().Trim(),
                                                             dtInfo.Rows[rows]["MinContab"].ToString().Trim(),
                                                             dtInfo.Rows[rows]["amContab"].ToString().Trim(),
-                                                            dtInfo.Rows[rows]["IdJerarquia"].ToString().Trim()
+                                                            dtInfo.Rows[rows]["IdJerarquia"].ToString().Trim(),
+                                                            dtInfo.Rows[rows]["idClasificacionN3"].ToString().Trim()
                                                           });
                 }
 
@@ -3005,7 +3023,15 @@ namespace ListasSarlaft.UserControls.Eventos
                 else
                     DropDownList27.SelectedIndex = 0;
             }
+            for (int i = 0; i < ddlClasificacionN3.Items.Count; i++)
+            {
+                ddlClasificacionN3.SelectedIndex = i;
+                if (ddlClasificacionN3.SelectedValue.ToString().Trim() == InfoGridEventos.Rows[RowGridEventos]["idClasificacionN3"].ToString().Trim())
+                    break;
+                else
 
+                    DropDownList26.SelectedIndex = 0;
+            }
             //Muetsra la informacion del generador de evento
             if (InfoGridEventos.Rows[RowGridEventos]["IdGeneraEvento"].ToString().Trim() == "1")
             {
@@ -3977,8 +4003,13 @@ namespace ListasSarlaft.UserControls.Eventos
         {
             try
             {
-                long N = Convert.ToInt32(Sanitizer.GetSafeHtmlFragment(TextBox23.Text));
-                TextBox23.Text = N.ToString("N0");
+                //long N = Convert.ToInt32(Sanitizer.GetSafeHtmlFragment(TextBox23.Text));
+                long perdidaIni = Convert.ToInt32(Sanitizer.GetSafeHtmlFragment(TextBox22.Text));
+                long valorRecuperadoSeg = Convert.ToInt32(Sanitizer.GetSafeHtmlFragment(TextBox15.Text));
+                long valorRecuperadosOtrCon = Convert.ToInt32(Sanitizer.GetSafeHtmlFragment(TextBox23.Text));
+                long total = perdidaIni - valorRecuperadoSeg - valorRecuperadosOtrCon;
+                TextBox23.Text = valorRecuperadosOtrCon.ToString("N0");
+                TextBox26.Text = total.ToString("N0");
             }
             catch (Exception a)
             {

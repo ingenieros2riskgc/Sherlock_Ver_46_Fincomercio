@@ -29,6 +29,9 @@ D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\bin\System.Web.Se
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\bin\System.Xml.dll
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\bin\System.Xml.Linq.dll
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\bin\Microsoft.ReportViewer.Common.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\bin\Microsoft.SqlServer.Types.dll
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\bin\DAL.pdb
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\bin\DTO.pdb
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\bin\DLL.pdb

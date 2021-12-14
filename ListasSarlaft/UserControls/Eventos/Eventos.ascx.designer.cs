@@ -7,11 +7,13 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace ListasSarlaft.UserControls.Eventos {
-    
-    
-    public partial class Eventos {
-        
+namespace ListasSarlaft.UserControls.Eventos
+{
+
+
+    public partial class Eventos
+    {
+
         /// <summary>
         /// Control SqlDataSource200.
         /// </summary>
@@ -20,7 +22,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource200;
-        
+
         /// <summary>
         /// Control SqlDataSource201.
         /// </summary>
@@ -29,7 +31,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource201;
-        
+
         /// <summary>
         /// Control omb.
         /// </summary>
@@ -38,7 +40,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::ListasSarlaft.UserControls.Sitio.OKMessageBox omb;
-        
+
         /// <summary>
         /// Control UpdatePanel1.
         /// </summary>
@@ -47,7 +49,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.UpdatePanel UpdatePanel1;
-        
+
         /// <summary>
         /// Control UpdateProgress4.
         /// </summary>
@@ -56,7 +58,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.UpdateProgress UpdateProgress4;
-        
+
         /// <summary>
         /// Control popupCausas.
         /// </summary>
@@ -65,7 +67,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel popupCausas;
-        
+
         /// <summary>
         /// Control UpdateProgress1.
         /// </summary>
@@ -74,7 +76,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.UpdateProgress UpdateProgress1;
-        
+
         /// <summary>
         /// Control ImageButton2.
         /// </summary>
@@ -83,7 +85,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton2;
-        
+
         /// <summary>
         /// Control GVcausasRiesgos.
         /// </summary>
@@ -92,7 +94,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GVcausasRiesgos;
-        
+
         /// <summary>
         /// Control LtextoCausas.
         /// </summary>
@@ -101,7 +103,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LtextoCausas;
-        
+
         /// <summary>
         /// Control CBriesgosSinCausa.
         /// </summary>
@@ -110,7 +112,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox CBriesgosSinCausa;
-        
+
         /// <summary>
         /// Control Bok.
         /// </summary>
@@ -119,7 +121,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Bok;
-        
+
         /// <summary>
         /// Control Label1.
         /// </summary>
@@ -128,7 +130,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label1;
-        
+
         /// <summary>
         /// Control tbGridEventos.
         /// </summary>
@@ -137,7 +139,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTable tbGridEventos;
-        
+
         /// <summary>
         /// Control Label69.
         /// </summary>
@@ -146,7 +148,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label69;
-        
+
         /// <summary>
         /// Control TextBox29.
         /// </summary>
@@ -155,7 +157,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox29;
-        
+
         /// <summary>
         /// Control Label70.
         /// </summary>
@@ -164,7 +166,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label70;
-        
+
         /// <summary>
         /// Control TextBox30.
         /// </summary>
@@ -173,7 +175,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox30;
-        
+
         /// <summary>
         /// Control Label71.
         /// </summary>
@@ -182,7 +184,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label71;
-        
+
         /// <summary>
         /// Control DropDownList19.
         /// </summary>
@@ -191,7 +193,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList19;
-        
+
         /// <summary>
         /// Control Label72.
         /// </summary>
@@ -200,7 +202,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label72;
-        
+
         /// <summary>
         /// Control DropDownList20.
         /// </summary>
@@ -209,7 +211,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList20;
-        
+
         /// <summary>
         /// Control Label73.
         /// </summary>
@@ -218,7 +220,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label73;
-        
+
         /// <summary>
         /// Control DropDownList21.
         /// </summary>
@@ -227,7 +229,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList21;
-        
+
         /// <summary>
         /// Control Label74.
         /// </summary>
@@ -236,7 +238,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label74;
-        
+
         /// <summary>
         /// Control DropDownList22.
         /// </summary>
@@ -245,7 +247,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList22;
-        
+
         /// <summary>
         /// Control ImageButton1.
         /// </summary>
@@ -254,7 +256,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
-        
+
         /// <summary>
         /// Control ImageButton18.
         /// </summary>
@@ -263,7 +265,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton18;
-        
+
         /// <summary>
         /// Control TbEventos.
         /// </summary>
@@ -272,7 +274,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTable TbEventos;
-        
+
         /// <summary>
         /// Control GridView1.
         /// </summary>
@@ -281,7 +283,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView1;
-        
+
         /// <summary>
         /// Control RadioButtonList1.
         /// </summary>
@@ -290,7 +292,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
-        
+
         /// <summary>
         /// Control TbNohuboeventos.
         /// </summary>
@@ -299,7 +301,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTable TbNohuboeventos;
-        
+
         /// <summary>
         /// Control Label48.
         /// </summary>
@@ -308,7 +310,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label48;
-        
+
         /// <summary>
         /// Control Label112.
         /// </summary>
@@ -317,7 +319,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label112;
-        
+
         /// <summary>
         /// Control Label113.
         /// </summary>
@@ -326,7 +328,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label113;
-        
+
         /// <summary>
         /// Control Label50.
         /// </summary>
@@ -335,7 +337,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label50;
-        
+
         /// <summary>
         /// Control ddlEmpresa.
         /// </summary>
@@ -344,7 +346,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlEmpresa;
-        
+
         /// <summary>
         /// Control CompareValidator4.
         /// </summary>
@@ -353,7 +355,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CompareValidator CompareValidator4;
-        
+
         /// <summary>
         /// Control LMailEvento.
         /// </summary>
@@ -362,7 +364,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LMailEvento;
-        
+
         /// <summary>
         /// Control DDLmailEvent.
         /// </summary>
@@ -371,7 +373,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DDLmailEvent;
-        
+
         /// <summary>
         /// Control Label53.
         /// </summary>
@@ -380,7 +382,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label53;
-        
+
         /// <summary>
         /// Control TextBox41.
         /// </summary>
@@ -389,7 +391,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox41;
-        
+
         /// <summary>
         /// Control Label52.
         /// </summary>
@@ -398,7 +400,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label52;
-        
+
         /// <summary>
         /// Control TextBox42.
         /// </summary>
@@ -407,7 +409,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox42;
-        
+
         /// <summary>
         /// Control BtnGuardaNoeventos.
         /// </summary>
@@ -416,7 +418,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton BtnGuardaNoeventos;
-        
+
         /// <summary>
         /// Control BtnCancelaNoeventos.
         /// </summary>
@@ -425,7 +427,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton BtnCancelaNoeventos;
-        
+
         /// <summary>
         /// Control TbConEventos.
         /// </summary>
@@ -434,7 +436,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTable TbConEventos;
-        
+
         /// <summary>
         /// Control TabContainerEventos.
         /// </summary>
@@ -443,7 +445,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.TabContainer TabContainerEventos;
-        
+
         /// <summary>
         /// Control TabPanelCreaEvento.
         /// </summary>
@@ -452,7 +454,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.TabPanel TabPanelCreaEvento;
-        
+
         /// <summary>
         /// Control TbTab1.
         /// </summary>
@@ -461,7 +463,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTable TbTab1;
-        
+
         /// <summary>
         /// Control Label154.
         /// </summary>
@@ -470,7 +472,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label154;
-        
+
         /// <summary>
         /// Control Label55.
         /// </summary>
@@ -479,7 +481,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label55;
-        
+
         /// <summary>
         /// Control Label56.
         /// </summary>
@@ -488,7 +490,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label56;
-        
+
         /// <summary>
         /// Control ddlEmpresa1.
         /// </summary>
@@ -497,7 +499,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlEmpresa1;
-        
+
         /// <summary>
         /// Control CompareValidator1.
         /// </summary>
@@ -506,7 +508,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
-        
+
         /// <summary>
         /// Control Label26.
         /// </summary>
@@ -515,7 +517,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label26;
-        
+
         /// <summary>
         /// Control Label4.
         /// </summary>
@@ -524,7 +526,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label4;
-        
+
         /// <summary>
         /// Control DropDownList1.
         /// </summary>
@@ -533,7 +535,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator3.
         /// </summary>
@@ -542,7 +544,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
-        
+
         /// <summary>
         /// Control Label5.
         /// </summary>
@@ -551,7 +553,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label5;
-        
+
         /// <summary>
         /// Control DropDownList2.
         /// </summary>
@@ -560,7 +562,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator4.
         /// </summary>
@@ -569,7 +571,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
-        
+
         /// <summary>
         /// Control Label23.
         /// </summary>
@@ -578,7 +580,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label23;
-        
+
         /// <summary>
         /// Control DropDownList3.
         /// </summary>
@@ -587,7 +589,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator5.
         /// </summary>
@@ -596,7 +598,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator5;
-        
+
         /// <summary>
         /// Control Label24.
         /// </summary>
@@ -605,7 +607,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label24;
-        
+
         /// <summary>
         /// Control DropDownList4.
         /// </summary>
@@ -614,7 +616,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList4;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator6.
         /// </summary>
@@ -623,7 +625,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator6;
-        
+
         /// <summary>
         /// Control Label25.
         /// </summary>
@@ -632,7 +634,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label25;
-        
+
         /// <summary>
         /// Control DropDownList5.
         /// </summary>
@@ -641,7 +643,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList5;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator7.
         /// </summary>
@@ -650,7 +652,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator7;
-        
+
         /// <summary>
         /// Control Td4.
         /// </summary>
@@ -659,7 +661,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td4;
-        
+
         /// <summary>
         /// Control Label27.
         /// </summary>
@@ -668,7 +670,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label27;
-        
+
         /// <summary>
         /// Control Td5.
         /// </summary>
@@ -677,7 +679,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td5;
-        
+
         /// <summary>
         /// Control TextBox43.
         /// </summary>
@@ -686,7 +688,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox43;
-        
+
         /// <summary>
         /// Control Label80.
         /// </summary>
@@ -695,7 +697,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label80;
-        
+
         /// <summary>
         /// Control TextBox44.
         /// </summary>
@@ -704,7 +706,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox44;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator28.
         /// </summary>
@@ -713,7 +715,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator28;
-        
+
         /// <summary>
         /// Control Label81.
         /// </summary>
@@ -722,7 +724,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label81;
-        
+
         /// <summary>
         /// Control DropDownList24.
         /// </summary>
@@ -731,7 +733,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList24;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator29.
         /// </summary>
@@ -740,7 +742,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator29;
-        
+
         /// <summary>
         /// Control Label82.
         /// </summary>
@@ -749,7 +751,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label82;
-        
+
         /// <summary>
         /// Control DropDownList25.
         /// </summary>
@@ -758,7 +760,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList25;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator31.
         /// </summary>
@@ -767,7 +769,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator31;
-        
+
         /// <summary>
         /// Control Label83.
         /// </summary>
@@ -776,7 +778,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label83;
-        
+
         /// <summary>
         /// Control TextBox45.
         /// </summary>
@@ -785,7 +787,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox45;
-        
+
         /// <summary>
         /// Control CalendarExtender4.
         /// </summary>
@@ -794,7 +796,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.CalendarExtender CalendarExtender4;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator124.
         /// </summary>
@@ -803,7 +805,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator124;
-        
+
         /// <summary>
         /// Control CompareValidator6.
         /// </summary>
@@ -812,7 +814,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CompareValidator CompareValidator6;
-        
+
         /// <summary>
         /// Control Label84.
         /// </summary>
@@ -821,7 +823,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label84;
-        
+
         /// <summary>
         /// Control DropDownList12.
         /// </summary>
@@ -830,7 +832,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList12;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator1.
         /// </summary>
@@ -839,7 +841,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
-        
+
         /// <summary>
         /// Control DropDownList13.
         /// </summary>
@@ -848,7 +850,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList13;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator2.
         /// </summary>
@@ -857,7 +859,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
-        
+
         /// <summary>
         /// Control DropDownList14.
         /// </summary>
@@ -866,7 +868,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList14;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator8.
         /// </summary>
@@ -875,7 +877,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator8;
-        
+
         /// <summary>
         /// Control Label85.
         /// </summary>
@@ -884,7 +886,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label85;
-        
+
         /// <summary>
         /// Control TextBox47.
         /// </summary>
@@ -893,7 +895,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox47;
-        
+
         /// <summary>
         /// Control CalendarExtender5.
         /// </summary>
@@ -902,7 +904,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.CalendarExtender CalendarExtender5;
-        
+
         /// <summary>
         /// Control CompareValidator2.
         /// </summary>
@@ -911,7 +913,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CompareValidator CompareValidator2;
-        
+
         /// <summary>
         /// Control Label86.
         /// </summary>
@@ -920,7 +922,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label86;
-        
+
         /// <summary>
         /// Control Td6.
         /// </summary>
@@ -929,7 +931,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td6;
-        
+
         /// <summary>
         /// Control DropDownList68.
         /// </summary>
@@ -938,7 +940,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList68;
-        
+
         /// <summary>
         /// Control Label2.
         /// </summary>
@@ -947,7 +949,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label2;
-        
+
         /// <summary>
         /// Control DropDownList69.
         /// </summary>
@@ -956,7 +958,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList69;
-        
+
         /// <summary>
         /// Control Label3.
         /// </summary>
@@ -965,7 +967,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label3;
-        
+
         /// <summary>
         /// Control DropDownList70.
         /// </summary>
@@ -974,7 +976,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList70;
-        
+
         /// <summary>
         /// Control Label6.
         /// </summary>
@@ -983,7 +985,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label6;
-        
+
         /// <summary>
         /// Control Label87.
         /// </summary>
@@ -992,7 +994,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label87;
-        
+
         /// <summary>
         /// Control TextBox49.
         /// </summary>
@@ -1001,7 +1003,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox49;
-        
+
         /// <summary>
         /// Control CalendarExtender6.
         /// </summary>
@@ -1010,7 +1012,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.CalendarExtender CalendarExtender6;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator126.
         /// </summary>
@@ -1019,7 +1021,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator126;
-        
+
         /// <summary>
         /// Control CompareValidator3.
         /// </summary>
@@ -1028,7 +1030,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CompareValidator CompareValidator3;
-        
+
         /// <summary>
         /// Control Label88.
         /// </summary>
@@ -1037,7 +1039,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label88;
-        
+
         /// <summary>
         /// Control Td7.
         /// </summary>
@@ -1046,7 +1048,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td7;
-        
+
         /// <summary>
         /// Control DropDownList71.
         /// </summary>
@@ -1055,7 +1057,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList71;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator10.
         /// </summary>
@@ -1064,7 +1066,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator10;
-        
+
         /// <summary>
         /// Control DropDownList72.
         /// </summary>
@@ -1073,7 +1075,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList72;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator12.
         /// </summary>
@@ -1082,7 +1084,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator12;
-        
+
         /// <summary>
         /// Control DropDownList73.
         /// </summary>
@@ -1091,7 +1093,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList73;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator13.
         /// </summary>
@@ -1100,7 +1102,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator13;
-        
+
         /// <summary>
         /// Control Label89.
         /// </summary>
@@ -1109,7 +1111,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label89;
-        
+
         /// <summary>
         /// Control DropDownList26.
         /// </summary>
@@ -1118,7 +1120,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList26;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator128.
         /// </summary>
@@ -1127,7 +1129,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator128;
-        
+
         /// <summary>
         /// Control Label90.
         /// </summary>
@@ -1136,7 +1138,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label90;
-        
+
         /// <summary>
         /// Control DropDownList27.
         /// </summary>
@@ -1145,7 +1147,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList27;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator129.
         /// </summary>
@@ -1154,7 +1156,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator129;
-        
+
         /// <summary>
         /// Control lresponable.
         /// </summary>
@@ -1163,7 +1165,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell lresponable;
-        
+
         /// <summary>
         /// Control Label91.
         /// </summary>
@@ -1172,7 +1174,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label91;
-        
+
         /// <summary>
         /// Control tresponsable.
         /// </summary>
@@ -1181,7 +1183,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell tresponsable;
-        
+
         /// <summary>
         /// Control TextBox51.
         /// </summary>
@@ -1190,7 +1192,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox51;
-        
+
         /// <summary>
         /// Control lblIdDependencia4.
         /// </summary>
@@ -1199,7 +1201,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblIdDependencia4;
-        
+
         /// <summary>
         /// Control imgDependencia4.
         /// </summary>
@@ -1208,7 +1210,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton imgDependencia4;
-        
+
         /// <summary>
         /// Control popupDependencia4.
         /// </summary>
@@ -1217,7 +1219,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.PopupControlExtender popupDependencia4;
-        
+
         /// <summary>
         /// Control pnlDependencia4.
         /// </summary>
@@ -1226,7 +1228,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel pnlDependencia4;
-        
+
         /// <summary>
         /// Control btnClosepp4.
         /// </summary>
@@ -1235,7 +1237,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton btnClosepp4;
-        
+
         /// <summary>
         /// Control TreeView4.
         /// </summary>
@@ -1244,7 +1246,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TreeView TreeView4;
-        
+
         /// <summary>
         /// Control BtnOk4.
         /// </summary>
@@ -1253,7 +1255,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnOk4;
-        
+
         /// <summary>
         /// Control RequiredFieldValidatorTextBox51.
         /// </summary>
@@ -1262,7 +1264,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorTextBox51;
-        
+
         /// <summary>
         /// Control Label93.
         /// </summary>
@@ -1271,7 +1273,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label93;
-        
+
         /// <summary>
         /// Control TextBox52.
         /// </summary>
@@ -1280,7 +1282,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox52;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator127.
         /// </summary>
@@ -1289,7 +1291,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator127;
-        
+
         /// <summary>
         /// Control Label57.
         /// </summary>
@@ -1298,7 +1300,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label57;
-        
+
         /// <summary>
         /// Control TextBox39.
         /// </summary>
@@ -1307,7 +1309,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox39;
-        
+
         /// <summary>
         /// Control Label62.
         /// </summary>
@@ -1316,7 +1318,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label62;
-        
+
         /// <summary>
         /// Control TextBox40.
         /// </summary>
@@ -1325,7 +1327,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox40;
-        
+
         /// <summary>
         /// Control ImageButton6.
         /// </summary>
@@ -1334,7 +1336,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton6;
-        
+
         /// <summary>
         /// Control ImageButton8.
         /// </summary>
@@ -1343,7 +1345,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton8;
-        
+
         /// <summary>
         /// Control ImageButton7.
         /// </summary>
@@ -1352,7 +1354,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton7;
-        
+
         /// <summary>
         /// Control TabPanelDtosCom.
         /// </summary>
@@ -1361,7 +1363,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.TabPanel TabPanelDtosCom;
-        
+
         /// <summary>
         /// Control TbDatosComplementarios.
         /// </summary>
@@ -1370,7 +1372,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTable TbDatosComplementarios;
-        
+
         /// <summary>
         /// Control Label54.
         /// </summary>
@@ -1379,7 +1381,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label54;
-        
+
         /// <summary>
         /// Control Label192.
         /// </summary>
@@ -1388,7 +1390,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label192;
-        
+
         /// <summary>
         /// Control DropDownList67.
         /// </summary>
@@ -1397,7 +1399,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList67;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator26.
         /// </summary>
@@ -1406,7 +1408,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator26;
-        
+
         /// <summary>
         /// Control Label18.
         /// </summary>
@@ -1415,7 +1417,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label18;
-        
+
         /// <summary>
         /// Control DropDownList9.
         /// </summary>
@@ -1424,7 +1426,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList9;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator21.
         /// </summary>
@@ -1433,7 +1435,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator21;
-        
+
         /// <summary>
         /// Control Label19.
         /// </summary>
@@ -1442,7 +1444,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label19;
-        
+
         /// <summary>
         /// Control DropDownList10.
         /// </summary>
@@ -1451,7 +1453,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList10;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator15.
         /// </summary>
@@ -1460,7 +1462,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator15;
-        
+
         /// <summary>
         /// Control Label43.
         /// </summary>
@@ -1469,7 +1471,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label43;
-        
+
         /// <summary>
         /// Control DropDownList6.
         /// </summary>
@@ -1478,7 +1480,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList6;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator111.
         /// </summary>
@@ -1487,7 +1489,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator111;
-        
+
         /// <summary>
         /// Control Label20.
         /// </summary>
@@ -1496,7 +1498,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label20;
-        
+
         /// <summary>
         /// Control DropDownList11.
         /// </summary>
@@ -1505,7 +1507,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList11;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator123.
         /// </summary>
@@ -1514,7 +1516,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator123;
-        
+
         /// <summary>
         /// Control Label7.
         /// </summary>
@@ -1523,7 +1525,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label7;
-        
+
         /// <summary>
         /// Control TextBox34.
         /// </summary>
@@ -1532,7 +1534,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox34;
-        
+
         /// <summary>
         /// Control lblIdDependencia1.
         /// </summary>
@@ -1541,7 +1543,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblIdDependencia1;
-        
+
         /// <summary>
         /// Control lblExisteResponsableNotificacion.
         /// </summary>
@@ -1550,7 +1552,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblExisteResponsableNotificacion;
-        
+
         /// <summary>
         /// Control imgDependencia1.
         /// </summary>
@@ -1559,7 +1561,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton imgDependencia1;
-        
+
         /// <summary>
         /// Control popupDependencia1.
         /// </summary>
@@ -1568,7 +1570,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.PopupControlExtender popupDependencia1;
-        
+
         /// <summary>
         /// Control pnlDependencia1.
         /// </summary>
@@ -1577,7 +1579,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel pnlDependencia1;
-        
+
         /// <summary>
         /// Control btnClosepp1.
         /// </summary>
@@ -1586,7 +1588,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton btnClosepp1;
-        
+
         /// <summary>
         /// Control TreeViewlast.
         /// </summary>
@@ -1595,7 +1597,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TreeView TreeViewlast;
-        
+
         /// <summary>
         /// Control BtnOk1.
         /// </summary>
@@ -1604,7 +1606,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnOk1;
-        
+
         /// <summary>
         /// Control Label97.
         /// </summary>
@@ -1613,7 +1615,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label97;
-        
+
         /// <summary>
         /// Control DropDownList33.
         /// </summary>
@@ -1622,7 +1624,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList33;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator41.
         /// </summary>
@@ -1631,7 +1633,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator41;
-        
+
         /// <summary>
         /// Control Label99.
         /// </summary>
@@ -1640,7 +1642,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label99;
-        
+
         /// <summary>
         /// Control DropDownList34.
         /// </summary>
@@ -1649,7 +1651,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList34;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator43.
         /// </summary>
@@ -1658,7 +1660,34 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator43;
-        
+
+        /// <summary>
+        /// Control Label14.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label14;
+
+        /// <summary>
+        /// Control ddlClasificacionN3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlClasificacionN3;
+
+        /// <summary>
+        /// Control rfvClasificacionN3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvClasificacionN3;
+
         /// <summary>
         /// Control Label10.
         /// </summary>
@@ -1667,7 +1696,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label10;
-        
+
         /// <summary>
         /// Control DropDownList8.
         /// </summary>
@@ -1676,7 +1705,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList8;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator9.
         /// </summary>
@@ -1685,7 +1714,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator9;
-        
+
         /// <summary>
         /// Control Label68.
         /// </summary>
@@ -1694,7 +1723,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label68;
-        
+
         /// <summary>
         /// Control DropDownList23.
         /// </summary>
@@ -1703,7 +1732,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList23;
-        
+
         /// <summary>
         /// Control Label77.
         /// </summary>
@@ -1712,7 +1741,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label77;
-        
+
         /// <summary>
         /// Control DropDownList29.
         /// </summary>
@@ -1721,7 +1750,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList29;
-        
+
         /// <summary>
         /// Control TrMasLNegocio.
         /// </summary>
@@ -1730,7 +1759,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableRow TrMasLNegocio;
-        
+
         /// <summary>
         /// Control Td12.
         /// </summary>
@@ -1739,7 +1768,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td12;
-        
+
         /// <summary>
         /// Control Label92.
         /// </summary>
@@ -1748,7 +1777,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label92;
-        
+
         /// <summary>
         /// Control Td13.
         /// </summary>
@@ -1757,7 +1786,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td13;
-        
+
         /// <summary>
         /// Control TextBox17.
         /// </summary>
@@ -1766,7 +1795,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox17;
-        
+
         /// <summary>
         /// Control Tr3.
         /// </summary>
@@ -1775,7 +1804,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableRow Tr3;
-        
+
         /// <summary>
         /// Control Td8.
         /// </summary>
@@ -1784,7 +1813,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td8;
-        
+
         /// <summary>
         /// Control Label51.
         /// </summary>
@@ -1793,7 +1822,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label51;
-        
+
         /// <summary>
         /// Control Td9.
         /// </summary>
@@ -1802,7 +1831,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td9;
-        
+
         /// <summary>
         /// Control DropDownList15.
         /// </summary>
@@ -1811,7 +1840,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList15;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator23.
         /// </summary>
@@ -1820,7 +1849,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator23;
-        
+
         /// <summary>
         /// Control Tr6.
         /// </summary>
@@ -1829,7 +1858,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableRow Tr6;
-        
+
         /// <summary>
         /// Control Td14.
         /// </summary>
@@ -1838,7 +1867,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td14;
-        
+
         /// <summary>
         /// Control Label98.
         /// </summary>
@@ -1847,7 +1876,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label98;
-        
+
         /// <summary>
         /// Control Td15.
         /// </summary>
@@ -1856,7 +1885,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td15;
-        
+
         /// <summary>
         /// Control TextBox53.
         /// </summary>
@@ -1865,7 +1894,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox53;
-        
+
         /// <summary>
         /// Control Tr4.
         /// </summary>
@@ -1874,7 +1903,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableRow Tr4;
-        
+
         /// <summary>
         /// Control Td10.
         /// </summary>
@@ -1883,7 +1912,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td10;
-        
+
         /// <summary>
         /// Control Label63.
         /// </summary>
@@ -1892,7 +1921,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label63;
-        
+
         /// <summary>
         /// Control Td11.
         /// </summary>
@@ -1901,7 +1930,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td11;
-        
+
         /// <summary>
         /// Control DropDownList16.
         /// </summary>
@@ -1910,7 +1939,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList16;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator24.
         /// </summary>
@@ -1919,7 +1948,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator24;
-        
+
         /// <summary>
         /// Control Tr1.
         /// </summary>
@@ -1928,7 +1957,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableRow Tr1;
-        
+
         /// <summary>
         /// Control Td2.
         /// </summary>
@@ -1937,7 +1966,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td2;
-        
+
         /// <summary>
         /// Control ImageButton19.
         /// </summary>
@@ -1946,7 +1975,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton19;
-        
+
         /// <summary>
         /// Control ImageButton20.
         /// </summary>
@@ -1955,7 +1984,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton20;
-        
+
         /// <summary>
         /// Control TabPanelContab.
         /// </summary>
@@ -1964,7 +1993,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.TabPanel TabPanelContab;
-        
+
         /// <summary>
         /// Control Label36.
         /// </summary>
@@ -1973,7 +2002,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label36;
-        
+
         /// <summary>
         /// Control TextBox33.
         /// </summary>
@@ -1982,7 +2011,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox33;
-        
+
         /// <summary>
         /// Control lblIdDependencia2.
         /// </summary>
@@ -1991,7 +2020,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblIdDependencia2;
-        
+
         /// <summary>
         /// Control imgDependencia2.
         /// </summary>
@@ -2000,7 +2029,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton imgDependencia2;
-        
+
         /// <summary>
         /// Control popupDependencia2.
         /// </summary>
@@ -2009,7 +2038,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.PopupControlExtender popupDependencia2;
-        
+
         /// <summary>
         /// Control pnlDependencia2.
         /// </summary>
@@ -2018,7 +2047,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel pnlDependencia2;
-        
+
         /// <summary>
         /// Control btnClosepp2.
         /// </summary>
@@ -2027,7 +2056,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton btnClosepp2;
-        
+
         /// <summary>
         /// Control TreeView2.
         /// </summary>
@@ -2036,7 +2065,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TreeView TreeView2;
-        
+
         /// <summary>
         /// Control BtnOk2.
         /// </summary>
@@ -2045,7 +2074,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnOk2;
-        
+
         /// <summary>
         /// Control Label29.
         /// </summary>
@@ -2054,7 +2083,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label29;
-        
+
         /// <summary>
         /// Control TextBox14.
         /// </summary>
@@ -2063,7 +2092,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox14;
-        
+
         /// <summary>
         /// Control Label30.
         /// </summary>
@@ -2072,7 +2101,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label30;
-        
+
         /// <summary>
         /// Control TextBox15.
         /// </summary>
@@ -2081,7 +2110,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox15;
-        
+
         /// <summary>
         /// Control TrCuentaPerdida.
         /// </summary>
@@ -2090,7 +2119,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableRow TrCuentaPerdida;
-        
+
         /// <summary>
         /// Control Label31.
         /// </summary>
@@ -2099,7 +2128,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label31;
-        
+
         /// <summary>
         /// Control TextBox16.
         /// </summary>
@@ -2108,7 +2137,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox16;
-        
+
         /// <summary>
         /// Control Label32.
         /// </summary>
@@ -2117,7 +2146,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label32;
-        
+
         /// <summary>
         /// Control DropDownList74.
         /// </summary>
@@ -2126,7 +2155,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList74;
-        
+
         /// <summary>
         /// Control Label37.
         /// </summary>
@@ -2135,7 +2164,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label37;
-        
+
         /// <summary>
         /// Control TextBox21.
         /// </summary>
@@ -2144,7 +2173,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox21;
-        
+
         /// <summary>
         /// Control Label38.
         /// </summary>
@@ -2153,7 +2182,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label38;
-        
+
         /// <summary>
         /// Control TextBox22.
         /// </summary>
@@ -2162,7 +2191,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox22;
-        
+
         /// <summary>
         /// Control Label39.
         /// </summary>
@@ -2171,7 +2200,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label39;
-        
+
         /// <summary>
         /// Control TextBox23.
         /// </summary>
@@ -2180,7 +2209,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox23;
-        
+
         /// <summary>
         /// Control Label40.
         /// </summary>
@@ -2189,7 +2218,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label40;
-        
+
         /// <summary>
         /// Control DropDownList75.
         /// </summary>
@@ -2198,7 +2227,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList75;
-        
+
         /// <summary>
         /// Control Label41.
         /// </summary>
@@ -2207,7 +2236,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label41;
-        
+
         /// <summary>
         /// Control TextBox25.
         /// </summary>
@@ -2216,7 +2245,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox25;
-        
+
         /// <summary>
         /// Control Label42.
         /// </summary>
@@ -2225,7 +2254,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label42;
-        
+
         /// <summary>
         /// Control TextBox26.
         /// </summary>
@@ -2234,7 +2263,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox26;
-        
+
         /// <summary>
         /// Control TrSeguro.
         /// </summary>
@@ -2243,7 +2272,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableRow TrSeguro;
-        
+
         /// <summary>
         /// Control Label44.
         /// </summary>
@@ -2252,7 +2281,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label44;
-        
+
         /// <summary>
         /// Control TextBox27.
         /// </summary>
@@ -2261,7 +2290,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox27;
-        
+
         /// <summary>
         /// Control Label45.
         /// </summary>
@@ -2270,7 +2299,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label45;
-        
+
         /// <summary>
         /// Control TextBox28.
         /// </summary>
@@ -2279,7 +2308,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox28;
-        
+
         /// <summary>
         /// Control Tr7.
         /// </summary>
@@ -2288,7 +2317,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableRow Tr7;
-        
+
         /// <summary>
         /// Control Td16.
         /// </summary>
@@ -2297,7 +2326,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td16;
-        
+
         /// <summary>
         /// Control Label65.
         /// </summary>
@@ -2306,7 +2335,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label65;
-        
+
         /// <summary>
         /// Control Td17.
         /// </summary>
@@ -2315,7 +2344,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td17;
-        
+
         /// <summary>
         /// Control DropDownList28.
         /// </summary>
@@ -2324,7 +2353,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList28;
-        
+
         /// <summary>
         /// Control lrecuperacio.
         /// </summary>
@@ -2333,7 +2362,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell lrecuperacio;
-        
+
         /// <summary>
         /// Control Label64.
         /// </summary>
@@ -2342,7 +2371,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label64;
-        
+
         /// <summary>
         /// Control trecuperacion.
         /// </summary>
@@ -2351,7 +2380,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell trecuperacion;
-        
+
         /// <summary>
         /// Control TextBox46.
         /// </summary>
@@ -2360,7 +2389,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox46;
-        
+
         /// <summary>
         /// Control Tr5.
         /// </summary>
@@ -2369,7 +2398,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableRow Tr5;
-        
+
         /// <summary>
         /// Control Td18.
         /// </summary>
@@ -2378,7 +2407,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td18;
-        
+
         /// <summary>
         /// Control Label8.
         /// </summary>
@@ -2387,7 +2416,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label8;
-        
+
         /// <summary>
         /// Control Td19.
         /// </summary>
@@ -2396,7 +2425,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td19;
-        
+
         /// <summary>
         /// Control TextBox1.
         /// </summary>
@@ -2405,7 +2434,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
-        
+
         /// <summary>
         /// Control CalendarExtender1.
         /// </summary>
@@ -2414,7 +2443,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.CalendarExtender CalendarExtender1;
-        
+
         /// <summary>
         /// Control Td20.
         /// </summary>
@@ -2423,7 +2452,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td20;
-        
+
         /// <summary>
         /// Control Label9.
         /// </summary>
@@ -2432,7 +2461,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label9;
-        
+
         /// <summary>
         /// Control Td21.
         /// </summary>
@@ -2441,7 +2470,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td21;
-        
+
         /// <summary>
         /// Control DropDownList7.
         /// </summary>
@@ -2450,7 +2479,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList7;
-        
+
         /// <summary>
         /// Control DropDownList30.
         /// </summary>
@@ -2459,7 +2488,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList30;
-        
+
         /// <summary>
         /// Control DropDownList31.
         /// </summary>
@@ -2468,7 +2497,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList31;
-        
+
         /// <summary>
         /// Control Tr2.
         /// </summary>
@@ -2477,7 +2506,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableRow Tr2;
-        
+
         /// <summary>
         /// Control Td3.
         /// </summary>
@@ -2486,7 +2515,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td3;
-        
+
         /// <summary>
         /// Control ImageButton21.
         /// </summary>
@@ -2495,7 +2524,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton21;
-        
+
         /// <summary>
         /// Control ImageButton22.
         /// </summary>
@@ -2504,7 +2533,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton22;
-        
+
         /// <summary>
         /// Control trRiesgosEventos.
         /// </summary>
@@ -2513,7 +2542,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableRow trRiesgosEventos;
-        
+
         /// <summary>
         /// Control TabContainer1.
         /// </summary>
@@ -2522,7 +2551,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.TabContainer TabContainer1;
-        
+
         /// <summary>
         /// Control TabPanel1.
         /// </summary>
@@ -2531,7 +2560,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.TabPanel TabPanel1;
-        
+
         /// <summary>
         /// Control Label67.
         /// </summary>
@@ -2540,7 +2569,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label67;
-        
+
         /// <summary>
         /// Control TextBox11.
         /// </summary>
@@ -2549,7 +2578,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox11;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator64.
         /// </summary>
@@ -2558,7 +2587,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator64;
-        
+
         /// <summary>
         /// Control ImageButton17.
         /// </summary>
@@ -2567,7 +2596,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton17;
-        
+
         /// <summary>
         /// Control GridView6.
         /// </summary>
@@ -2576,7 +2605,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView6;
-        
+
         /// <summary>
         /// Control TabPanel2.
         /// </summary>
@@ -2585,7 +2614,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.TabPanel TabPanel2;
-        
+
         /// <summary>
         /// Control Label66.
         /// </summary>
@@ -2594,7 +2623,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label66;
-        
+
         /// <summary>
         /// Control FileUpload1.
         /// </summary>
@@ -2603,7 +2632,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
-        
+
         /// <summary>
         /// Control ImageButton16.
         /// </summary>
@@ -2612,7 +2641,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton16;
-        
+
         /// <summary>
         /// Control GridView4.
         /// </summary>
@@ -2621,7 +2650,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView4;
-        
+
         /// <summary>
         /// Control TabPanel3.
         /// </summary>
@@ -2630,7 +2659,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.TabPanel TabPanel3;
-        
+
         /// <summary>
         /// Control Label46.
         /// </summary>
@@ -2639,7 +2668,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label46;
-        
+
         /// <summary>
         /// Control Label75.
         /// </summary>
@@ -2648,7 +2677,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label75;
-        
+
         /// <summary>
         /// Control TextBox31.
         /// </summary>
@@ -2657,7 +2686,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox31;
-        
+
         /// <summary>
         /// Control Label76.
         /// </summary>
@@ -2666,7 +2695,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label76;
-        
+
         /// <summary>
         /// Control TextBox32.
         /// </summary>
@@ -2675,7 +2704,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox32;
-        
+
         /// <summary>
         /// Control ImageButton9.
         /// </summary>
@@ -2684,7 +2713,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton9;
-        
+
         /// <summary>
         /// Control ImageButton10.
         /// </summary>
@@ -2693,7 +2722,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton10;
-        
+
         /// <summary>
         /// Control Label13.
         /// </summary>
@@ -2702,7 +2731,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label13;
-        
+
         /// <summary>
         /// Control GridView8.
         /// </summary>
@@ -2711,7 +2740,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView8;
-        
+
         /// <summary>
         /// Control hidForModel.
         /// </summary>
@@ -2720,7 +2749,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hidForModel;
-        
+
         /// <summary>
         /// Control modalPopup.
         /// </summary>
@@ -2729,7 +2758,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.ModalPopupExtender modalPopup;
-        
+
         /// <summary>
         /// Control Label34.
         /// </summary>
@@ -2738,7 +2767,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label34;
-        
+
         /// <summary>
         /// Control GridView2.
         /// </summary>
@@ -2747,7 +2776,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView2;
-        
+
         /// <summary>
         /// Control Label11.
         /// </summary>
@@ -2756,7 +2785,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label11;
-        
+
         /// <summary>
         /// Control GvDesasociar.
         /// </summary>
@@ -2765,7 +2794,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GvDesasociar;
-        
+
         /// <summary>
         /// Control TabPanel4.
         /// </summary>
@@ -2774,7 +2803,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.TabPanel TabPanel4;
-        
+
         /// <summary>
         /// Control GridView3.
         /// </summary>
@@ -2783,7 +2812,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView3;
-        
+
         /// <summary>
         /// Control ImageButton5.
         /// </summary>
@@ -2792,7 +2821,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton5;
-        
+
         /// <summary>
         /// Control trAddPlanAccion.
         /// </summary>
@@ -2801,7 +2830,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableRow trAddPlanAccion;
-        
+
         /// <summary>
         /// Control Td1.
         /// </summary>
@@ -2810,7 +2839,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell Td1;
-        
+
         /// <summary>
         /// Control Label49.
         /// </summary>
@@ -2819,7 +2848,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label49;
-        
+
         /// <summary>
         /// Control TextBox20.
         /// </summary>
@@ -2828,7 +2857,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox20;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator59.
         /// </summary>
@@ -2837,7 +2866,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator59;
-        
+
         /// <summary>
         /// Control Label47.
         /// </summary>
@@ -2846,7 +2875,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label47;
-        
+
         /// <summary>
         /// Control TextBox35.
         /// </summary>
@@ -2855,7 +2884,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox35;
-        
+
         /// <summary>
         /// Control lblIdDependencia3.
         /// </summary>
@@ -2864,7 +2893,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblIdDependencia3;
-        
+
         /// <summary>
         /// Control imgDependencia3.
         /// </summary>
@@ -2873,7 +2902,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton imgDependencia3;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator11.
         /// </summary>
@@ -2882,7 +2911,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator11;
-        
+
         /// <summary>
         /// Control popupDependencia3.
         /// </summary>
@@ -2891,7 +2920,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.PopupControlExtender popupDependencia3;
-        
+
         /// <summary>
         /// Control pnlDependencia3.
         /// </summary>
@@ -2900,7 +2929,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel pnlDependencia3;
-        
+
         /// <summary>
         /// Control btnClosepp3.
         /// </summary>
@@ -2909,7 +2938,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton btnClosepp3;
-        
+
         /// <summary>
         /// Control TreeView3.
         /// </summary>
@@ -2918,7 +2947,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TreeView TreeView3;
-        
+
         /// <summary>
         /// Control BtnOk3.
         /// </summary>
@@ -2927,7 +2956,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnOk3;
-        
+
         /// <summary>
         /// Control Label58.
         /// </summary>
@@ -2936,7 +2965,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label58;
-        
+
         /// <summary>
         /// Control DropDownList17.
         /// </summary>
@@ -2945,7 +2974,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList17;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator60.
         /// </summary>
@@ -2954,7 +2983,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator60;
-        
+
         /// <summary>
         /// Control Label59.
         /// </summary>
@@ -2963,7 +2992,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label59;
-        
+
         /// <summary>
         /// Control TextBox36.
         /// </summary>
@@ -2972,7 +3001,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox36;
-        
+
         /// <summary>
         /// Control Label61.
         /// </summary>
@@ -2981,7 +3010,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label61;
-        
+
         /// <summary>
         /// Control DropDownList18.
         /// </summary>
@@ -2990,7 +3019,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList18;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator63.
         /// </summary>
@@ -2999,7 +3028,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator63;
-        
+
         /// <summary>
         /// Control Label60.
         /// </summary>
@@ -3008,7 +3037,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label60;
-        
+
         /// <summary>
         /// Control TextBox37.
         /// </summary>
@@ -3017,7 +3046,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox37;
-        
+
         /// <summary>
         /// Control TextBox15_CalendarExtender.
         /// </summary>
@@ -3026,7 +3055,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.CalendarExtender TextBox15_CalendarExtender;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator62.
         /// </summary>
@@ -3035,7 +3064,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator62;
-        
+
         /// <summary>
         /// Control trAdjComPlaAcci.
         /// </summary>
@@ -3044,7 +3073,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableRow trAdjComPlaAcci;
-        
+
         /// <summary>
         /// Control TabContainer3.
         /// </summary>
@@ -3053,7 +3082,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.TabContainer TabContainer3;
-        
+
         /// <summary>
         /// Control TabPanel7.
         /// </summary>
@@ -3062,7 +3091,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.TabPanel TabPanel7;
-        
+
         /// <summary>
         /// Control Label78.
         /// </summary>
@@ -3071,7 +3100,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label78;
-        
+
         /// <summary>
         /// Control TextBox38.
         /// </summary>
@@ -3080,7 +3109,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox38;
-        
+
         /// <summary>
         /// Control RequiredFieldValidator14.
         /// </summary>
@@ -3089,7 +3118,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator14;
-        
+
         /// <summary>
         /// Control ImageButton11.
         /// </summary>
@@ -3098,7 +3127,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton11;
-        
+
         /// <summary>
         /// Control GridView9.
         /// </summary>
@@ -3107,7 +3136,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView9;
-        
+
         /// <summary>
         /// Control TabPanel10.
         /// </summary>
@@ -3116,7 +3145,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.TabPanel TabPanel10;
-        
+
         /// <summary>
         /// Control Label79.
         /// </summary>
@@ -3125,7 +3154,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label79;
-        
+
         /// <summary>
         /// Control FileUpload2.
         /// </summary>
@@ -3134,7 +3163,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.FileUpload FileUpload2;
-        
+
         /// <summary>
         /// Control ImageButton15.
         /// </summary>
@@ -3143,7 +3172,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton15;
-        
+
         /// <summary>
         /// Control GridView10.
         /// </summary>
@@ -3152,7 +3181,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView10;
-        
+
         /// <summary>
         /// Control ImageButton13.
         /// </summary>
@@ -3161,7 +3190,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton13;
-        
+
         /// <summary>
         /// Control ImageButton12.
         /// </summary>
@@ -3170,7 +3199,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton12;
-        
+
         /// <summary>
         /// Control ImageButton14.
         /// </summary>
@@ -3179,7 +3208,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton14;
-        
+
         /// <summary>
         /// Control mpeMsgBox.
         /// </summary>
@@ -3188,7 +3217,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.ModalPopupExtender mpeMsgBox;
-        
+
         /// <summary>
         /// Control btndummy.
         /// </summary>
@@ -3197,7 +3226,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btndummy;
-        
+
         /// <summary>
         /// Control pnlMsgBox.
         /// </summary>
@@ -3206,7 +3235,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel pnlMsgBox;
-        
+
         /// <summary>
         /// Control tdCaption.
         /// </summary>
@@ -3215,7 +3244,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell tdCaption;
-        
+
         /// <summary>
         /// Control lblCaption.
         /// </summary>
@@ -3224,7 +3253,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblCaption;
-        
+
         /// <summary>
         /// Control imgInfo.
         /// </summary>
@@ -3233,7 +3262,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image imgInfo;
-        
+
         /// <summary>
         /// Control lblMsgBox.
         /// </summary>
@@ -3242,7 +3271,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMsgBox;
-        
+
         /// <summary>
         /// Control btnAceptar.
         /// </summary>
@@ -3251,7 +3280,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnAceptar;
-        
+
         /// <summary>
         /// Control mpeMsgBoxOkNo.
         /// </summary>
@@ -3260,7 +3289,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::AjaxControlToolkit.ModalPopupExtender mpeMsgBoxOkNo;
-        
+
         /// <summary>
         /// Control btndummyOkNo.
         /// </summary>
@@ -3269,7 +3298,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btndummyOkNo;
-        
+
         /// <summary>
         /// Control lbldummyOkNo.
         /// </summary>
@@ -3278,7 +3307,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lbldummyOkNo;
-        
+
         /// <summary>
         /// Control pnlMsgBoxOkNo.
         /// </summary>
@@ -3287,7 +3316,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel pnlMsgBoxOkNo;
-        
+
         /// <summary>
         /// Control tdCaptionOkNo.
         /// </summary>
@@ -3296,7 +3325,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableCell tdCaptionOkNo;
-        
+
         /// <summary>
         /// Control lblCaptionOkNo.
         /// </summary>
@@ -3305,7 +3334,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblCaptionOkNo;
-        
+
         /// <summary>
         /// Control imgInfoOkNo.
         /// </summary>
@@ -3314,7 +3343,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image imgInfoOkNo;
-        
+
         /// <summary>
         /// Control lblMsgBoxOkNo.
         /// </summary>
@@ -3323,7 +3352,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMsgBoxOkNo;
-        
+
         /// <summary>
         /// Control Label12.
         /// </summary>
@@ -3332,7 +3361,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label12;
-        
+
         /// <summary>
         /// Control TBoxJustificacion.
         /// </summary>
@@ -3341,7 +3370,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TBoxJustificacion;
-        
+
         /// <summary>
         /// Control TBoxJustificacionRequired.
         /// </summary>
@@ -3350,7 +3379,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator TBoxJustificacionRequired;
-        
+
         /// <summary>
         /// Control btnAceptarOkNo.
         /// </summary>
@@ -3359,7 +3388,7 @@ namespace ListasSarlaft.UserControls.Eventos {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnAceptarOkNo;
-        
+
         /// <summary>
         /// Control btnCancelarOkNo.
         /// </summary>

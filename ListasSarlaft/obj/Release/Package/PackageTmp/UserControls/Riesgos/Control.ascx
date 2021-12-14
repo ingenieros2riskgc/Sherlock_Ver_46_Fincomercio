@@ -491,7 +491,7 @@
                                                 InitialValue="---" Font-Bold="true" ForeColor="Red" ValidationGroup="validateControl">*</asp:RequiredFieldValidator>
                                         </td>
                                         <td bgcolor="#BBBBBB">
-                                            <asp:Label ID="Label9" runat="server" Text="Test:" Font-Size="Small" Font-Names="Calibri"></asp:Label>
+                                            <asp:Label ID="Label9" runat="server" Text="Tipo de Control:" Font-Size="Small" Font-Names="Calibri"></asp:Label>
                                         </td>
                                         <td bgcolor="#EEEEEE">
                                             <asp:DropDownList ID="DropDownList2" runat="server" Width="155px" Font-Names="Calibri"

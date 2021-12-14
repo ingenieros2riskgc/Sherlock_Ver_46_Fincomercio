@@ -366,7 +366,7 @@
                     <table id="tbModificarRiesgo" runat="server" visible="false">
                         <tr>
                             <td>
-                                <asp:TabContainer ID="TabContainer1" runat="server" ActiveTabIndex="4" Font-Names="Calibri"
+                                <asp:TabContainer ID="TabContainer1" runat="server" ActiveTabIndex="1" Font-Names="Calibri"
                                     Font-Size="Small" Width="900px">
                                     <asp:TabPanel ID="TabPanel1" runat="server" HeaderText="Riesgo" Font-Names="Calibri"
                                         Font-Size="Small">

@@ -24,7 +24,7 @@ namespace ListasSarlaft.UserControls.Eventos
             }
             if (!Page.IsPostBack)
             {
-                //ReportViewer1.LocalReport.Refresh();
+                ReportViewer1.LocalReport.Refresh();
             }
         }
 

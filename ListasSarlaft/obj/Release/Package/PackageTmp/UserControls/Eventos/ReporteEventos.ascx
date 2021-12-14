@@ -254,7 +254,7 @@
                                         <asp:BoundField DataField="Estado" HeaderText="Estado" />
                                         <asp:BoundField DataField="Proceso" HeaderText="Proceso" />
                                         <asp:BoundField DataField="SubProceso" HeaderText="SubProceso" />
-                                        <asp:BoundField DataField="Actividad" HeaderText="Actividad" />
+                                        <%-- <asp:BoundField DataField="Actividad" HeaderText="Actividad" />--%>
                                         <asp:BoundField DataField="Responsable Solución" HeaderText="Responsable Solución" />
                                         <%--<asp:BoundField DataField="Cargo" HeaderText="Cargo" />
                                         <asp:BoundField DataField="Area" HeaderText="Área" />--%>

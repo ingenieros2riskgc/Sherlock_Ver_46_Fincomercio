@@ -86,7 +86,20 @@ namespace ListasSarlaft.Classes.BLL
                 throw ex;
             }
         }
-
+        public int ActualizarAcm(GestionAcm acm)
+        {
+            try
+            {
+                using (GestionAcmDAL objData = new GestionAcmDAL())
+                {
+                    return objData.ActualizarAcm(acm);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         public void InsertarActualizarActividades(List<PlanAccionActividad> actividades)
         {
             try

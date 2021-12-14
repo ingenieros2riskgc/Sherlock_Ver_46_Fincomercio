@@ -42,3 +42,6 @@ D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\obj\Release\Lista
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\obj\Release\ListasSarlaft.XmlSerializers.dll
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\obj\Release\RdlCompile.cache
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\obj\Release\RdlCompile.compiled
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\bin\Microsoft.SqlServer.Types.dll

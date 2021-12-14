@@ -164,7 +164,43 @@ namespace ListasSarlaft.Classes.DAL
                 throw ex;
             }
         }
+        public int ActualizarAcm(GestionAcm acm)
+        {
+            try
+            {
+                List<SqlParameter> parametros = new List<SqlParameter>()
+                {
+                    new SqlParameter() { ParameterName = "@IdAcm", SqlDbType = SqlDbType.Int, Value =  acm.IdAcm },
+                    new SqlParameter() { ParameterName = "@Proceso", SqlDbType = SqlDbType.Int, Value =  acm.Proceso },
+                    new SqlParameter() { ParameterName = "@MacroProceso", SqlDbType = SqlDbType.Int, Value =  acm.MacroProceso },
+                    new SqlParameter() { ParameterName = "@Cadenavalor", SqlDbType = SqlDbType.Int, Value =  acm.CadenaValor },
+                    new SqlParameter() { ParameterName = "@IdSubproceso", SqlDbType = SqlDbType.Int, Value =  acm.Subproceso },
+                    new SqlParameter() { ParameterName = "@DescripcionNoConformidad", SqlDbType = SqlDbType.VarChar, Value =  acm.DescripcionNoConformidad },
+                    new SqlParameter() { ParameterName = "@OrigenNoConformidad", SqlDbType = SqlDbType.Int, Value =  acm.OrigenNoConformidad },
+                    new SqlParameter() { ParameterName = "@CausasRaiz", SqlDbType = SqlDbType.VarChar, Value =  acm.CausasRaiz },
+                    new SqlParameter() { ParameterName = "@Codigo", SqlDbType = SqlDbType.VarChar, Value =  acm.Codigo },
+                    new SqlParameter() { ParameterName = "@AnalisisCausa", SqlDbType = SqlDbType.VarBinary, Value =  (byte[])acm.AnalisisCausa },
+                    new SqlParameter() { ParameterName = "@Estado", SqlDbType = SqlDbType.Int, Value =  acm.Estado },
+                    new SqlParameter() { ParameterName = "@VerificacionEficacia", SqlDbType = SqlDbType.VarChar, Value =  acm.VerificacionEficacia },
+                    new SqlParameter() { ParameterName = "@Observaciones", SqlDbType = SqlDbType.VarChar, Value =  acm.Observaciones },
+                    new SqlParameter() { ParameterName = "@UsuarioRegistra", SqlDbType = SqlDbType.Int, Value =  acm.UsuarioRegistra },
+                    new SqlParameter() { ParameterName = "@UsuarioRevisa", SqlDbType = SqlDbType.Int, Value =  acm.UsuarioRevisa },
+                    new SqlParameter() { ParameterName = "@UsuarioAprueba", SqlDbType = SqlDbType.Int, Value =  acm.UsuarioAprueba },
+                    new SqlParameter() { ParameterName = "@UsuarioModifica", SqlDbType = SqlDbType.Int, Value =  acm.UsuarioModifica },
+                    new SqlParameter() { ParameterName = "@NombreArchivo", SqlDbType = SqlDbType.VarChar, Value =  acm.NombreArchivo },
+                    new SqlParameter() { ParameterName = "@Extension", SqlDbType = SqlDbType.VarChar, Value =  acm.Extension },
+                    //Adicionamos grupo trabajo descripción
+                    new SqlParameter() { ParameterName = "@GrupoTrabajo", SqlDbType = SqlDbType.VarChar, Value=acm.GrupoTrabajo },
+                    new SqlParameter() { ParameterName = "@Resultado", SqlDbType = SqlDbType.Int, Direction = ParameterDirection.Output },
 
+                };
+                return cDataBase.EjecutarSPParametrosReturnInteger("[Procesos].[ActualizarAcm]", parametros);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         public void InsertarActualizarResponsablesAcm(List<AcmResponsable> responsables)
         {
             try

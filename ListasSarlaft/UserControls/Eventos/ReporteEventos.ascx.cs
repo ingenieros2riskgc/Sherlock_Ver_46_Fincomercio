@@ -498,25 +498,26 @@ namespace ListasSarlaft.UserControls.Eventos
             grid.Columns.Add("MacroProceso", typeof(string));
             grid.Columns.Add("Proceso", typeof(string));
             grid.Columns.Add("SubProceso", typeof(string));
-            grid.Columns.Add("Actividad", typeof(string));
+            //grid.Columns.Add("Actividad", typeof(string));
             grid.Columns.Add("Responsable Solución", typeof(string));
-            grid.Columns.Add("Clase de Riesgo", typeof(string));
-            grid.Columns.Add("SubClase de Riesgo", typeof(string));
+            grid.Columns.Add("Clasificación Nivel 1", typeof(string));
+            grid.Columns.Add("Clasificación Nivel 2", typeof(string));
+            grid.Columns.Add("Clasificación Nivel 3", typeof(string));
             grid.Columns.Add("Tipo de Pérdida", typeof(string));
-            grid.Columns.Add("Línea Operativa ", typeof(string));
-            grid.Columns.Add("SubLínea Operativa", typeof(string));
+            //grid.Columns.Add("Línea Operativa ", typeof(string));
+            //grid.Columns.Add("SubLínea Operativa", typeof(string));
             grid.Columns.Add("Más Líneas Operativas", typeof(string));
             grid.Columns.Add("Afecta Continuidad", typeof(string));
             grid.Columns.Add("Estado", typeof(string));
             grid.Columns.Add("Observaciones", typeof(string));
             grid.Columns.Add("Responsable Contabilidad", typeof(string));
             grid.Columns.Add("Cuenta PUC", typeof(string));
-            grid.Columns.Add("Cuenta de Orden", typeof(string));
-            grid.Columns.Add("Tasa de Cambio", typeof(string));
-            grid.Columns.Add("Valor en Pesos", typeof(string));
-            grid.Columns.Add("Valor Recuperado Total", typeof(string));
-            grid.Columns.Add("Tasa de Cambio 2", typeof(string));
-            grid.Columns.Add("Valor en Pesos 2", typeof(string));
+            grid.Columns.Add("Valor recuperado por seguros", typeof(string));
+            //grid.Columns.Add("Tasa de Cambio", typeof(string));
+            grid.Columns.Add("Pérdida inicial", typeof(string));
+            grid.Columns.Add("Valor recuperado otros conceptos", typeof(string));
+            //grid.Columns.Add("Tasa de Cambio 2", typeof(string));
+            grid.Columns.Add("Pérdida Final", typeof(string));
             grid.Columns.Add("Recuperación ", typeof(string));
             grid.Columns.Add("Fuente de la Recuperación", typeof(string));
             grid.Columns.Add("Fecha Contabilización", typeof(string));
@@ -570,25 +571,26 @@ namespace ListasSarlaft.UserControls.Eventos
                         dtInfo.Rows[rows]["MacroProceso"].ToString().Trim(),
                         dtInfo.Rows[rows]["Proceso"].ToString().Trim(),
                         dtInfo.Rows[rows]["SubProceso"].ToString().Trim(),
-                        dtInfo.Rows[rows]["Actividad"].ToString().Trim(),
+                        //dtInfo.Rows[rows]["Actividad"].ToString().Trim(),
                         dtInfo.Rows[rows]["Responsable Solución"].ToString().Trim(),
-                        dtInfo.Rows[rows]["Clase de Riesgo"].ToString().Trim(),
-                        dtInfo.Rows[rows]["SubClase de Riesgo"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Clasificación Nivel 1"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Clasificación Nivel 2"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Clasificación Nivel 3"].ToString().Trim(),
                         dtInfo.Rows[rows]["Tipo de Pérdida"].ToString().Trim(),
-                        dtInfo.Rows[rows]["Línea Operativa"].ToString().Trim(),
-                        dtInfo.Rows[rows]["SubLínea Operativa"].ToString().Trim(),
+                        //dtInfo.Rows[rows]["Línea Operativa"].ToString().Trim(),
+                        //dtInfo.Rows[rows]["SubLínea Operativa"].ToString().Trim(),
                         dtInfo.Rows[rows]["Más Líneas Operativas"].ToString().Trim(),
                         dtInfo.Rows[rows]["Afecta Continuidad"].ToString().Trim(),
                         dtInfo.Rows[rows]["Estado"].ToString().Trim(),
                         dtInfo.Rows[rows]["Observaciones"].ToString().Trim(),
                         dtInfo.Rows[rows]["Responsable Contabilidad"].ToString().Trim(),
                         dtInfo.Rows[rows]["Cuenta PUC"].ToString().Trim(),
-                        dtInfo.Rows[rows]["Cuenta de Orden"].ToString().Trim(),
-                        dtInfo.Rows[rows]["Tasa de Cambio"].ToString().Trim(),
-                        dtInfo.Rows[rows]["Valor en Pesos"].ToString().Trim(),
-                        dtInfo.Rows[rows]["Valor Recuperado Total"].ToString().Trim(),
-                        dtInfo.Rows[rows]["Tasa de Cambio 2"].ToString().Trim(),
-                        dtInfo.Rows[rows]["Valor en Pesos 2"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Valor recuperado por seguros"].ToString().Trim(),
+                        //dtInfo.Rows[rows]["Tasa de Cambio"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Pérdida inicial"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Valor recuperado otros conceptos"].ToString().Trim(),
+                        //dtInfo.Rows[rows]["Tasa de Cambio 2"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Pérdida Final"].ToString().Trim(),
                         dtInfo.Rows[rows]["Recuperación"].ToString().Trim(),
                         dtInfo.Rows[rows]["Fuente de la Recuperación"].ToString().Trim(),
                         dtInfo.Rows[rows]["Fecha Contabilización"].ToString().Trim()

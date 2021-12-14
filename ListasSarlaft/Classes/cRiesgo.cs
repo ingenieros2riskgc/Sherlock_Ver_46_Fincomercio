@@ -1207,6 +1207,23 @@ namespace ListasSarlaft.Classes
             }
             return dtInformacion;
         }
+        public DataTable loadDDLClasificacionN3()
+        {
+            DataTable dtInformacion = new DataTable();
+            try
+            {
+                cDataBase.conectar();
+                dtInformacion = cDataBase.ejecutarConsulta("SELECT * FROM Eventos.ClasificacionN3 ORDER BY id");
+                cDataBase.desconectar();
+            }
+            catch (Exception ex)
+            {
+                cDataBase.desconectar();
+                cError.errorMessage(ex.Message + ", " + ex.StackTrace);
+                throw new Exception(ex.Message);
+            }
+            return dtInformacion;
+        }
 
         public DataTable loadDDLGenerador()
         {

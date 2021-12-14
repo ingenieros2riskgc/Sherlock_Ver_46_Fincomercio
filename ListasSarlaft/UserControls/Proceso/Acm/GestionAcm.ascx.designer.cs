@@ -1203,6 +1203,15 @@ namespace ListasSarlaft.UserControls.Proceso.Acm
         protected global::System.Web.UI.WebControls.ImageButton btnGuardar;
 
         /// <summary>
+        /// Control btnUpdate.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton btnUpdate;
+
+        /// <summary>
         /// Control btnCancelar.
         /// </summary>
         /// <remarks>

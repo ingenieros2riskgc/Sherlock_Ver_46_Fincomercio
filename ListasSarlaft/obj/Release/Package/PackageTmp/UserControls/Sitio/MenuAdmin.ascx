@@ -286,7 +286,8 @@
                                                 Value="Línea Operativa"></asp:MenuItem>
                                             <asp:MenuItem NavigateUrl="~/Formularios/Eventos/SubLNegocio.aspx" Text="SubLínea Operativa"
                                                 Value="SubLínea Operativa"></asp:MenuItem>
-
+                                            <asp:MenuItem NavigateUrl="~/Formularios/Eventos/ClasificacionN3.aspx" Text="Clasificación Nivel 3"
+                                                Value="SubLínea Operativa"></asp:MenuItem>
                                         </asp:MenuItem>
                                         <asp:MenuItem Text="Controles" Value="Controles">
                                             <asp:MenuItem NavigateUrl="~/Formularios/Riesgos/Admin/ParConPeriodicidad.aspx" Text="Periodicidad"

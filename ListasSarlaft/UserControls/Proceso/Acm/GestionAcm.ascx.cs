@@ -1943,7 +1943,7 @@ namespace ListasSarlaft.UserControls.Proceso.Acm
                     // Registra la primera parte del Acm
                     Classes.DTO.Calidad.GestionAcm acm = new Classes.DTO.Calidad.GestionAcm
                     {
-                        IdAcm = (int)Session["IdAcm"],
+                        IdAcm = idAcm,/*(int)Session["IdAcm"],*/
                         Proceso = Convert.ToInt32(ddlProceso.SelectedValue),
                         MacroProceso = Convert.ToInt32(ddlMacroproceso.SelectedValue),
                         CadenaValor = Convert.ToInt32(ddlCadenaValor.SelectedValue),
@@ -1971,9 +1971,11 @@ namespace ListasSarlaft.UserControls.Proceso.Acm
                         omb.ShowMessage("No se puede cerrar el Acm porque hay actividades en curso.", 2, "Atención");
                         return;
                     }
-
-                    int IdAcm = objData.InsertarActualizarAcm(acm);
-                    if (IdAcm > 0)
+                    /*if (idAcm != 0)
+                        objData.ActualizarAcm(acm);
+                    else*/
+                        idAcm = objData.InsertarActualizarAcm(acm);
+                    if (idAcm > 0)
                     {
                         // Controla que se borren las asociaciones anteriores
                         int contador = 0;
@@ -1987,7 +1989,7 @@ namespace ListasSarlaft.UserControls.Proceso.Acm
                                 {
                                     IdAcmResponsable = 0,
                                     IdResponsable = Convert.ToInt32(str),
-                                    IdAcm = IdAcm,
+                                    IdAcm = idAcm,
                                     Usuario = Convert.ToInt32(Session["IdUsuario"]),
                                     Flag = contador
                                 });
@@ -2039,7 +2041,7 @@ namespace ListasSarlaft.UserControls.Proceso.Acm
                                         Nombre = newname,
                                         //Nombre = txtNombre.Text.Substring(txtNombre.Text.IndexOf(".    ") +5, (txtNombre.Text.Length - txtNombre.Text.IndexOf(".")-5)),
                                         //string a = txtNombre.Text.Substring(txtNombre.Text.IndexOf("."), txtNombre.Text.Length - txtNombre.Text.IndexOf(".")),
-                                        IdAcm = IdAcm,
+                                        IdAcm = idAcm,
                                         FechaInicio = Convert.ToDateTime(txtFechaInicio.Text),
                                         FechaFin = Convert.ToDateTime(txtFechaFin.Text),
                                         Responsables = lblResponsables.Text,
@@ -2056,7 +2058,7 @@ namespace ListasSarlaft.UserControls.Proceso.Acm
                                         Nombre = txtNombre.Text,
                                         //Nombre = txtNombre.Text.Substring(txtNombre.Text.IndexOf(".    ") +5, (txtNombre.Text.Length - txtNombre.Text.IndexOf(".")-5)),
                                         //string a = txtNombre.Text.Substring(txtNombre.Text.IndexOf("."), txtNombre.Text.Length - txtNombre.Text.IndexOf(".")),
-                                        IdAcm = IdAcm,
+                                        IdAcm = idAcm,
                                         FechaInicio = Convert.ToDateTime(txtFechaInicio.Text),
                                         FechaFin = Convert.ToDateTime(txtFechaFin.Text),
                                         Responsables = lblResponsables.Text,
@@ -2070,7 +2072,7 @@ namespace ListasSarlaft.UserControls.Proceso.Acm
 
                                 if (lstPlanAccionActividad.Count > 0)
                                 {
-                                    GenerarNotificacion(TipoNotificacion.Actividad, lstPlanAccionActividad, IdAcm);
+                                    GenerarNotificacion(TipoNotificacion.Actividad, lstPlanAccionActividad, idAcm);
                                 }
 
                                 lstPlanAccionActividad.Clear();
@@ -2201,6 +2203,8 @@ namespace ListasSarlaft.UserControls.Proceso.Acm
             {
                 case "Seleccionar":
                     divFiltrosBusqueda.Visible = false;
+                    btnUpdate.Visible = true;
+                    btnGuardar.Visible = false;
                     CargarInfoEditarAcm(Convert.ToInt32(gvAcm.Rows[Convert.ToInt32(e.CommandArgument)].Cells[0].Text));
                     mtdLoadAdjuntos(Convert.ToInt32(gvAcm.Rows[Convert.ToInt32(e.CommandArgument)].Cells[0].Text));
                     //CargarEstadoActividad(Convert.ToInt32(gvAcm.Rows[Convert.ToInt32(e.CommandArgument)].Cells[0].Text));
@@ -2221,6 +2225,8 @@ namespace ListasSarlaft.UserControls.Proceso.Acm
             gvActividades.Columns[4].Visible = false;
             txtFechaCreacion.Text = System.DateTime.Now.ToString();
             divFiltrosBusqueda.Visible = false;
+            btnGuardar.Visible = true;
+            btnUpdate.Visible = false;
         }
 
         protected void BtnCancelar_Click(object sender, ImageClickEventArgs e)
@@ -2734,6 +2740,256 @@ namespace ListasSarlaft.UserControls.Proceso.Acm
             divFiltrosBusqueda.Visible = true;
             Reset();
             searchFiltres();
+        }
+
+        protected void btnUpdate_Click(object sender, ImageClickEventArgs e)
+        {
+            try
+            {
+                if ((int)Session["IdAcm"] > 0)
+                {
+                    if (cCuenta.permisosActualizar(IdFormulario) == "False")
+                    {
+                        omb.ShowMessage("No tiene los permisos suficientes para llevar a cabo esta acción.", 2, "Atención");
+                        return;
+                    }
+                }
+                else
+                {
+                    if (cCuenta.permisosAgregar(IdFormulario) == "False")
+                    {
+                        omb.ShowMessage("No tiene los permisos suficientes para llevar a cabo esta acción.", 2, "Atención");
+                        return;
+                    }
+                }
+
+                // Inicio validaciones para cerrar el Acm
+
+                if (gvActividades.Rows.Count <= 1 && ddlEstadoAcm.SelectedValue == "2")
+                {
+                    TextBox txt = (TextBox)gvActividades.Rows[0].Cells[0].FindControl("TextBox1");
+                    if (txt.Text == string.Empty)
+                    {
+                        omb.ShowMessage("Debe registrar al menos una actividad de seguimiento.", 2, "Atención");
+                        return;
+                    }
+                }
+                if (chkAprobado.Checked && ddlEstadoAcm.SelectedValue != "2")
+                {
+                    omb.ShowMessage("El estado debe estar cerrado para aprobar.", 2, "Atención");
+                    return;
+                }
+                else if (ddlEstadoAcm.SelectedValue == "2" && !chkAprobado.Checked)
+                {
+                    omb.ShowMessage("Para cerrar el Acm debe estar aprobado.", 2, "Atención");
+                    return;
+                }
+                else if (chkAprobado.Checked && !chkRevisado.Checked)
+                {
+                    omb.ShowMessage("Para aprobar un Acm debe estar revisado.", 2, "Atención");
+                    return;
+                }
+                if (ddlEstadoAcm.SelectedValue == "2" && txtVerificacionEficacia.Text == string.Empty)
+                {
+                    omb.ShowMessage("Debe escribir la verificación de eficacia antes de cerrar el Acm.", 2, "Atención");
+                    return;
+                }
+                if (ddlEstadoAcm.SelectedValue == "2" && txtObservacionesAcm.Text == string.Empty)
+                {
+                    omb.ShowMessage("Debe esribir las observaciones del cierre.", 2, "Atención");
+                    return;
+                }
+                if (fuAnalisisCausa.HasFile == false && btnDescargarArchivo.Visible == false)
+                {
+                    omb.ShowMessage("El cargue del documento es obligatorio.", 2, "Atención");
+                    return;
+                }
+                // Fin validaciones para cerrar el Acm
+
+                #region ArchivoCargado
+                string pathFile = string.Empty;
+                string extension = string.Empty;
+                string nombreArchivo = string.Empty;
+                byte[] archivo = null;
+
+                string estadoAcm = ddlEstadoAcm.SelectedValue;
+
+                if (fuAnalisisCausa.HasFile)
+                {
+                    if (new[] { ".doc", ".docx", ".pdf", ".xls", ".xlsx", ".txt", ".ppt", ".pptx" }.Any(x => x == System.IO.Path.GetExtension(fuAnalisisCausa.FileName).ToLower().ToString().Trim()))
+                    {
+                        pathFile = "Analisis." + fuAnalisisCausa.FileName;
+                        nombreArchivo = fuAnalisisCausa.FileName;
+                        archivo = fuAnalisisCausa.FileBytes;
+                        int length = Convert.ToInt32(fuAnalisisCausa.FileContent.Length);
+                        extension = System.IO.Path.GetExtension(fuAnalisisCausa.FileName).ToLower().ToString().Trim();
+                    }
+                    else
+                    {
+                        omb.ShowMessage("Solo archivos en formato pdf, word,excel, power point", 2, "Atención");
+                        return;
+                    }
+                }
+                #endregion
+                int idAcm = (int)Session["IdAcm"];
+                using (GestionAcmBLL objData = new GestionAcmBLL())
+                {
+                    int? usuarioRevisa = null;
+                    int? usuarioAprueba = null;
+
+                    // Se valida el estado de los checkbox
+                    if (chkRevisado.Checked && chkRevisado.Enabled)
+                        usuarioRevisa = Convert.ToInt32(Session["IdUsuario"]);
+
+                    if (chkAprobado.Checked && chkAprobado.Enabled)
+                        usuarioAprueba = Convert.ToInt32(Session["IdUsuario"]);
+
+
+
+                    // Registra la primera parte del Acm
+                    Classes.DTO.Calidad.GestionAcm acm = new Classes.DTO.Calidad.GestionAcm
+                    {
+                        IdAcm = idAcm,/*(int)Session["IdAcm"],*/
+                        Proceso = Convert.ToInt32(ddlProceso.SelectedValue),
+                        MacroProceso = Convert.ToInt32(ddlMacroproceso.SelectedValue),
+                        CadenaValor = Convert.ToInt32(ddlCadenaValor.SelectedValue),
+                        Subproceso = ddlSubproceso.SelectedValue.Equals("0") ? new int?() : Convert.ToInt32(ddlSubproceso.SelectedValue),
+                        DescripcionNoConformidad = txtDescNoConformidad.Text,
+                        OrigenNoConformidad = Convert.ToInt32(ddlOrigenNoConformidad.SelectedValue),
+                        CausasRaiz = txtCausasRaiz.Text,
+                        Codigo = txtCodigo.Text,
+                        AnalisisCausa = archivo,
+                        NombreArchivo = nombreArchivo,
+                        Extension = extension,
+                        Estado = ddlEstadoAcm.SelectedValue.Equals("0") ? 1 : Convert.ToInt32(ddlEstadoAcm.SelectedValue),
+                        VerificacionEficacia = txtVerificacionEficacia.Text,
+                        Observaciones = txtObservacionesAcm.Text,
+                        UsuarioRegistra = Convert.ToInt32(Session["IdUsuario"]),
+                        UsuarioModifica = Convert.ToInt32(Session["IdUsuario"]),
+                        UsuarioRevisa = usuarioRevisa,
+                        UsuarioAprueba = usuarioAprueba,
+                        GrupoTrabajo = txtGrupo.Text.Trim(),
+                    };
+
+                    // Valida si hay actividades pendientes
+                    if (objData.SeleccionarActividadesPendientes(acm.IdAcm) > 0 && ddlEstadoAcm.SelectedValue == "2")
+                    {
+                        omb.ShowMessage("No se puede cerrar el Acm porque hay actividades en curso.", 2, "Atención");
+                        return;
+                    }
+                    objData.ActualizarAcm(acm);
+                    /*if (idAcm != 0)
+                        
+                    else
+                    idAcm = objData.InsertarActualizarAcm(acm);*/
+                    if (idAcm > 0)
+                    {
+                        // Controla que se borren las asociaciones anteriores
+                        int contador = 0;
+
+                        // Realiza la segunda parte del Insert del Acm
+                        List<Classes.DTO.Calidad.AcmResponsable> lstAcmResponsable = new List<Classes.DTO.Calidad.AcmResponsable>();
+                        lblIdDependencia1.Text.Substring(0, lblIdDependencia1.Text.Length).Split(',').ToList().ForEach(
+                            str =>
+                            {
+                                lstAcmResponsable.Add(new Classes.DTO.Calidad.AcmResponsable()
+                                {
+                                    IdAcmResponsable = 0,
+                                    IdResponsable = Convert.ToInt32(str),
+                                    IdAcm = idAcm,
+                                    Usuario = Convert.ToInt32(Session["IdUsuario"]),
+                                    Flag = contador
+                                });
+                                contador++;
+                            }
+                            );
+                        objData.InsertarActualizarResponsablesAcm(lstAcmResponsable);
+
+                        contador = 0;
+
+                        // Registra las actividades y responsables del plan de acción
+
+                        List<Classes.DTO.Calidad.PlanAccionActividad> lstPlanAccionActividad = new List<Classes.DTO.Calidad.PlanAccionActividad>();
+                        foreach (GridViewRow row in gvActividades.Rows)
+                        {
+                            TextBox txtNombre = (TextBox)row.Cells[0].FindControl("TextBox1");
+                            TextBox txtFechaInicio = (TextBox)row.Cells[0].FindControl("TextBox2");
+                            TextBox txtFechaFin = (TextBox)row.Cells[0].FindControl("TextBox3");
+                            Label lblResponsables = (Label)row.Cells[4].FindControl("lblIdDependenciaGv");
+                            Label lblIdActividad = (Label)row.Cells[1].FindControl("lblIdActividadGv");
+
+                            if (!new[] { txtNombre.Text, txtFechaInicio.Text, txtFechaFin.Text, lblResponsables.Text }.Any(x => x == string.Empty))
+                            {
+                                string[] lastname = txtNombre.Text.Split('.');
+                                string newname = "";
+                                if (lastname.Count() > 1)
+                                {
+                                    newname = lastname[1];
+                                    lstPlanAccionActividad.Add(new Classes.DTO.Calidad.PlanAccionActividad()
+                                    {
+                                        IdActividad = lblIdActividad.Text.Equals("") ? 0 : Convert.ToInt32(lblIdActividad.Text),
+                                        Nombre = newname,
+                                        //Nombre = txtNombre.Text.Substring(txtNombre.Text.IndexOf(".    ") +5, (txtNombre.Text.Length - txtNombre.Text.IndexOf(".")-5)),
+                                        //string a = txtNombre.Text.Substring(txtNombre.Text.IndexOf("."), txtNombre.Text.Length - txtNombre.Text.IndexOf(".")),
+                                        IdAcm = idAcm,
+                                        FechaInicio = Convert.ToDateTime(txtFechaInicio.Text),
+                                        FechaFin = Convert.ToDateTime(txtFechaFin.Text),
+                                        Responsables = lblResponsables.Text,
+                                        Usuario = Convert.ToInt32(Session["IdUsuario"]),
+                                        UsuarioModifica = Convert.ToInt32(Session["IdUsuario"]),
+                                        IdPlanAccionActividadResponsable = 0
+                                    });
+                                }
+                                else
+                                {
+                                    lstPlanAccionActividad.Add(new Classes.DTO.Calidad.PlanAccionActividad()
+                                    {
+                                        IdActividad = lblIdActividad.Text.Equals("") ? 0 : Convert.ToInt32(lblIdActividad.Text),
+                                        Nombre = txtNombre.Text,
+                                        //Nombre = txtNombre.Text.Substring(txtNombre.Text.IndexOf(".    ") +5, (txtNombre.Text.Length - txtNombre.Text.IndexOf(".")-5)),
+                                        //string a = txtNombre.Text.Substring(txtNombre.Text.IndexOf("."), txtNombre.Text.Length - txtNombre.Text.IndexOf(".")),
+                                        IdAcm = idAcm,
+                                        FechaInicio = Convert.ToDateTime(txtFechaInicio.Text),
+                                        FechaFin = Convert.ToDateTime(txtFechaFin.Text),
+                                        Responsables = lblResponsables.Text,
+                                        Usuario = Convert.ToInt32(Session["IdUsuario"]),
+                                        UsuarioModifica = Convert.ToInt32(Session["IdUsuario"]),
+                                        IdPlanAccionActividadResponsable = 0
+                                    });
+                                }
+
+                                objData.InsertarActualizarActividades(lstPlanAccionActividad);
+
+                                if (lstPlanAccionActividad.Count > 0)
+                                {
+                                    GenerarNotificacion(TipoNotificacion.Actividad, lstPlanAccionActividad, idAcm);
+                                }
+
+                                lstPlanAccionActividad.Clear();
+                            }
+                        }
+
+                        // Envia correo cuando se crea el Acm
+                        if (ddlEstadoAcm.SelectedValue == "0")
+                        {
+                            GenerarNotificacion(TipoNotificacion.Acm);
+                        }
+                    }
+                }
+                
+                if ((int)Session["IdAcm"] == 0)
+                    omb.ShowMessage("Acm registrado con éxito.", 3, "Información");
+                else if ((int)Session["IdAcm"] > 0 && ddlEstadoAcm.SelectedValue != "2")
+                    omb.ShowMessage("Acm actualizado con éxito.", 3, "Información");
+                else if ((int)Session["IdAcm"] > 0 && ddlEstadoAcm.SelectedValue == "2")
+                    omb.ShowMessage("Acm cerrado con éxito.", 3, "Información");
+                Reset();
+            }
+            catch (Exception ex)
+            {
+                omb.ShowMessage($"Error al registrar el Acm. {ex.Message}", 1, "Atención");
+            }
+            ResetFiltroBusqueda();
         }
     }
 }

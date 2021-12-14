@@ -426,7 +426,7 @@
                     <table id="TbConEventos" runat="server" visible="false" align="center">
                         <tr>
                             <td align="center">
-                                <asp:TabContainer ID="TabContainerEventos" runat="server" ActiveTabIndex="0" Font-Names="Calibri"
+                                <asp:TabContainer ID="TabContainerEventos" runat="server" ActiveTabIndex="2" Font-Names="Calibri"
                                     Font-Size="Small" Width="800px" aling="left" AutoPostBack="true" OnActiveTabChanged="TabContainerEventos_ActiveTabChanged">
                                     <asp:TabPanel ID="TabPanelCreaEvento" runat="server" HeaderText="Creación Evento"
                                         Font-Names="Calibri" Font-Size="Small">
@@ -1105,7 +1105,7 @@
                                                             InitialValue="---" ForeColor="Red" ValidationGroup="Addne1">*</asp:RequiredFieldValidator>
                                                     </td>
                                                 </tr>
-                                                <tr align="left" runat="server">
+                                                <tr align="left" runat="server" visible="false">
                                                     <td bgcolor="#BBBBBB" runat="server">
                                                         <asp:Label ID="Label20" runat="server" Text="Actividad" Font-Names="Calibri" Font-Size="Small"></asp:Label>
                                                     </td>
@@ -1168,7 +1168,7 @@
                                                 </tr>
                                                 <tr runat="server" align="left">
                                                     <td bgcolor="#BBBBBB" runat="server">
-                                                        <asp:Label ID="Label97" runat="server" Text="Clase de Riesgo" Font-Names="Calibri"
+                                                        <asp:Label ID="Label97" runat="server" Text="Clasificación Nivel 1" Font-Names="Calibri"
                                                             Font-Size="Small"></asp:Label>
                                                     </td>
                                                     <td runat="server">
@@ -1180,7 +1180,7 @@
                                                             InitialValue="---" ForeColor="Red" ValidationGroup="Addne1">*</asp:RequiredFieldValidator>
                                                     </td>
                                                     <td bgcolor="#BBBBBB" runat="server">
-                                                        <asp:Label ID="Label99" runat="server" Text="SubClase de Riesgo" Font-Names="Calibri"
+                                                        <asp:Label ID="Label99" runat="server" Text="Clasificación Nivel 2" Font-Names="Calibri"
                                                             Font-Size="Small"></asp:Label>
                                                     </td>
                                                     <td runat="server">
@@ -1189,6 +1189,20 @@
                                                             <asp:ListItem Value="---">---</asp:ListItem>
                                                         </asp:DropDownList>
                                                         <asp:RequiredFieldValidator ID="RequiredFieldValidator43" runat="server" ControlToValidate="DropDownList34"
+                                                            InitialValue="---" ForeColor="Red" ValidationGroup="Addne1">*</asp:RequiredFieldValidator>
+                                                    </td>
+                                                </tr>
+                                                <tr runat="server" align="left">
+                                                    <td bgcolor="#BBBBBB" runat="server">
+                                                        <asp:Label ID="Label14" runat="server" Text="Clasificación Nivel 3" Font-Names="Calibri"
+                                                            Font-Size="Small"></asp:Label>
+                                                    </td>
+                                                    <td runat="server">
+                                                        <asp:DropDownList ID="ddlClasificacionN3" Width="200px" runat="server" Font-Names="Calibri"
+                                                            Font-Size="Small">
+                                                            <asp:ListItem Value="---">---</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                        <asp:RequiredFieldValidator ID="rfvClasificacionN3" runat="server" ControlToValidate="ddlClasificacionN3"
                                                             InitialValue="---" ForeColor="Red" ValidationGroup="Addne1">*</asp:RequiredFieldValidator>
                                                     </td>
                                                 </tr>
@@ -1206,7 +1220,7 @@
                                                             InitialValue="---" ForeColor="Red" ValidationGroup="Addne1">*</asp:RequiredFieldValidator>
                                                     </td>
                                                 </tr>
-                                                <tr align="left" runat="server">
+                                                <tr align="left" runat="server" visible="false">
                                                     <td bgcolor="#BBBBBB" runat="server">
                                                         <asp:Label ID="Label68" runat="server" Text="Línea Operativa" Font-Names="Calibri"
                                                             Font-Size="Small"></asp:Label>
@@ -1353,7 +1367,7 @@
                                                         <asp:TextBox ID="TextBox14" runat="server" Width="195px" Font-Names="Calibri" Font-Size="Small"></asp:TextBox>
                                                     </td>
                                                     <td bgcolor="#BBBBBB">
-                                                        <asp:Label ID="Label30" runat="server" Font-Names="Calibri" Font-Size="Small" Text="Cuenta de Orden No"></asp:Label>
+                                                        <asp:Label ID="Label30" runat="server" Font-Names="Calibri" Font-Size="Small" Text="Valor recuperado por seguros"></asp:Label>
                                                     </td>
                                                     <td>
                                                         <asp:TextBox ID="TextBox15" runat="server" Width="195px" Font-Names="Calibri" Font-Size="Small"></asp:TextBox>
@@ -1366,10 +1380,10 @@
                                                     <td>
                                                         <asp:TextBox ID="TextBox16" runat="server" Width="195px" Font-Names="Calibri" Font-Size="Small"></asp:TextBox>
                                                     </td>
-                                                    <td bgcolor="#BBBBBB">
+                                                    <td bgcolor="#BBBBBB" runat="server" visible="false">
                                                         <asp:Label ID="Label32" runat="server" Font-Names="Calibri" Font-Size="Small" Text="Moneda"></asp:Label>
                                                     </td>
-                                                    <td>
+                                                    <td runat="server" visible="false">
                                                         <asp:DropDownList ID="DropDownList74" runat="server" Font-Names="Calibri" Font-Size="Small"
                                                             Width="195px">
                                                             <asp:ListItem Value="">---</asp:ListItem>
@@ -1379,25 +1393,25 @@
                                                         </asp:DropDownList>
                                                     </td>
                                                 </tr>
-                                                <tr align="left" id="TrCuentaPerdida" visible="false">
-                                                    <td bgcolor="#BBBBBB">
+                                                <tr align="left" id="TrCuentaPerdida">
+                                                    <td bgcolor="#BBBBBB" runat="server" visible="false">
                                                         <asp:Label ID="Label37" runat="server" Font-Names="Calibri" Font-Size="Small" Text="Tasa de Cambio"></asp:Label>
                                                     </td>
-                                                    <td>
+                                                    <td runat="server" visible="false">
                                                         <asp:TextBox ID="TextBox21" runat="server" Width="195px" Font-Names="Calibri" Font-Size="Small"
                                                             AutoPostBack="True" OnTextChanged="TextBox21_TextChanged"></asp:TextBox>
                                                     </td>
                                                     <td bgcolor="#BBBBBB">
-                                                        <asp:Label ID="Label38" runat="server" Font-Names="Calibri" Font-Size="Small" Text="Valor en Pesos"></asp:Label>
+                                                        <asp:Label ID="Label38" runat="server" Font-Names="Calibri" Font-Size="Small" Text="Pérdida inicial"></asp:Label>
                                                     </td>
                                                     <td>
                                                         <asp:TextBox ID="TextBox22" runat="server" Width="195px" Font-Names="Calibri" Font-Size="Small"
-                                                            AutoPostBack="True" OnTextChanged="TextBox22_TextChanged"></asp:TextBox>
+                                                            ></asp:TextBox>
                                                     </td>
                                                 </tr>
                                                 <tr align="left">
                                                     <td bgcolor="#BBBBBB">
-                                                        <asp:Label ID="Label39" runat="server" Font-Names="Calibri" Font-Size="Small" Text="Valor Recuperado Total"></asp:Label>
+                                                        <asp:Label ID="Label39" runat="server" Font-Names="Calibri" Font-Size="Small" Text="Valor recuperado otros conceptos"></asp:Label>
                                                     </td>
                                                     <td>
                                                         <asp:TextBox ID="TextBox23" runat="server" Width="195px" Font-Names="Calibri" Font-Size="Small"
@@ -1416,20 +1430,20 @@
                                                         </asp:DropDownList>
                                                     </td>
                                                 </tr>
-                                                <tr align="left">
-                                                    <td bgcolor="#BBBBBB">
+                                                <tr align="left" >
+                                                    <td bgcolor="#BBBBBB" runat="server" visible="false">
                                                         <asp:Label ID="Label41" runat="server" Font-Names="Calibri" Font-Size="Small" Text="Tasa de Cambio"></asp:Label>
                                                     </td>
-                                                    <td>
+                                                    <td runat="server" visible="false">
                                                         <asp:TextBox ID="TextBox25" runat="server" Width="195px" Font-Names="Calibri" Font-Size="Small"
                                                             AutoPostBack="True" OnTextChanged="TextBox25_TextChanged"></asp:TextBox>
                                                     </td>
                                                     <td bgcolor="#BBBBBB">
-                                                        <asp:Label ID="Label42" runat="server" Font-Names="Calibri" Font-Size="Small" Text="Valor en Pesos"></asp:Label>
+                                                        <asp:Label ID="Label42" runat="server" Font-Names="Calibri" Font-Size="Small" Text="Pérdida Final"></asp:Label>
                                                     </td>
                                                     <td>
                                                         <asp:TextBox ID="TextBox26" runat="server" Width="195px" Font-Names="Calibri" Font-Size="Small"
-                                                            AutoPostBack="True" OnTextChanged="TextBox26_TextChanged"></asp:TextBox>
+                                                            AutoPostBack="True" OnTextChanged="TextBox26_TextChanged" Enabled="false"></asp:TextBox>
                                                     </td>
                                                 </tr>
                                                 <tr align="left" runat="server" id="TrSeguro" visible="false">
