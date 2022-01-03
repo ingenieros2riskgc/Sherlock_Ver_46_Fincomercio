@@ -20,6 +20,7 @@ using ClosedXML.Excel;
 using Microsoft.Security.Application;
 using System.Web.Services;
 using ListasSarlaft.Classes.Utilerias;
+using HeaderFooter = iTextSharp.text.HeaderFooter;
 
 namespace ListasSarlaft.UserControls.Riesgos.CuadroMando.Eventos
 {

@@ -8,3 +8,14 @@ D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsLogica\obj\Debug\DLL.csprojA
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsLogica\obj\Debug\DLL.csproj.CopyComplete
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsLogica\obj\Debug\DLL.dll
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsLogica\obj\Debug\DLL.pdb
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\bin\Debug\DLL.dll
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\bin\Debug\DLL.pdb
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\bin\Debug\DAL.dll
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\bin\Debug\DTO.dll
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\bin\Debug\DAL.pdb
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\bin\Debug\DTO.pdb
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\obj\Debug\DLL.csproj.AssemblyReference.cache
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\obj\Debug\DLL.csproj.CoreCompileInputs.cache
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\obj\Debug\DLL.csproj.CopyComplete
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\obj\Debug\DLL.dll
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\obj\Debug\DLL.pdb

@@ -3,3 +3,9 @@ D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDTO\bin\Release\DTO.pdb
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDTO\obj\Release\DTO.csprojAssemblyReference.cache
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDTO\obj\Release\DTO.dll
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDTO\obj\Release\DTO.pdb
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDTO\bin\Release\DTO.dll
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDTO\bin\Release\DTO.pdb
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDTO\obj\Release\DTO.csproj.AssemblyReference.cache
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDTO\obj\Release\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDTO\obj\Release\DTO.dll
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDTO\obj\Release\DTO.pdb

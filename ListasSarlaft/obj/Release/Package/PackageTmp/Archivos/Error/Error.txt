@@ -4727,3 +4727,103 @@ La conversión del tipo de datos varchar en datetime produjo un valor fuera de i
    en ListasSarlaft.Classes.cDataBase.ejecutarQuery(String txtQuery) en D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\Classes\cDataBase.cs:línea 54
    en ListasSarlaft.Classes.cEvento.mtdModificarEvento2(String ResponsableContabilidad, String CuentaPUC, String CuentaOrden, String CuentaPerdida, String Moneda1, String TasaCambio1, String ValorPesos1, String ValorRecuperadoTotal, String Moneda2, String TasaCambio2, String ValorPesos2, String ValorRecuperadoSeguro, String ValorPesos3, String Recuperacion, String ValorRecuperacion, String IdEvento, Boolean booIsFecha, String strFechaContab, String strHoraContab) en D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\ListasSarlaft\Classes\cEvento.cs:línea 434
 30/11/2021 8:51:05
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.autenticarUsuario(String Usuario, String Contrasena) en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 359
+2022-01-03 11:43:09
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.autenticarUsuario(String Usuario, String Contrasena) en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 359
+2022-01-03 11:43:56
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.mtdUsuarioBloqueado(String Usuario, String Contrasena) en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1027
+2022-01-03 11:44:49
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.MensajeLogin(String Usuario) en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 181
+2022-01-03 11:45:37
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.autenticarUsuario(String Usuario, String Contrasena) en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 359
+2022-01-03 11:49:01
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.autenticarUsuario(String Usuario, String Contrasena) en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 359
+2022-01-03 12:25:10
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.mtdUsuarioBloqueado(String Usuario, String Contrasena) en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1029
+2022-01-03 12:25:10
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.MensajeLogin(String Usuario) en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 181
+2022-01-03 12:25:10
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-03 16:10:17

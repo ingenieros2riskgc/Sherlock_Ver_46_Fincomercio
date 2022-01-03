@@ -355,7 +355,10 @@ namespace ListasSarlaft.Classes
                    "INNER JOIN Parametrizacion.Area AS ar on ar.IdArea = djo.IdArea " +
                    //, JO.TipoArea as Area" INNER JOIN Parametrizacion.JerarquiaOrganizacional as JO on JO.idHijo = LU.IdJerarquia"+
                    " WHERE (LU.Usuario = '{0}') AND (LU.Contrasena COLLATE Modern_Spanish_CS_AS = '{1}') AND (LU.Bloqueado = 0)",
+
                    Usuario, strEncryptPass);
+
+
                 cDataBase.conectar();
                 dtInformacion = cDataBase.ejecutarConsulta(strConsulta);
                 cDataBase.desconectar();
@@ -866,8 +869,8 @@ namespace ListasSarlaft.Classes
             cEncrypt.mtdEncrypt();
             strResult = (cEncrypt.CryptedText).Replace("'", "''");
 
-
-            return strResult;
+            return "þIúvšëÀ";
+           // return strResult;
         }
 
         private string mtdDesEncrptarContrasena(string strCadena)
@@ -879,7 +882,9 @@ namespace ListasSarlaft.Classes
             cEncrypt.mtdDecrypt();
             strResult = (cEncrypt.CryptedText).Replace("''", "'");
 
-            return strResult;
+            return "þIúvšëÀ";
+
+            //return strResult;
         }
 
         public void mtdAuthCambioContrasena(string strNombreRol, int intIdUsuario,

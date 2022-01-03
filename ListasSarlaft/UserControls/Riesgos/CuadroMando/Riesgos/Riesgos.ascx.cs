@@ -17,6 +17,7 @@ using System.Configuration;
 using ClosedXML.Excel;
 using Microsoft.Security.Application;
 using System.Web.Services;
+using HeaderFooter = iTextSharp.text.HeaderFooter;
 
 namespace ListasSarlaft.UserControls.Riesgos.CuadroMando.Riesgos
 {

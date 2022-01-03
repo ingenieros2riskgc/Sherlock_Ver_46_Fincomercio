@@ -352,7 +352,7 @@ namespace ListasSarlaft.UserControls.Eventos
                 loadDDLClaseRiesgo();
                 loadDDLEstado();
                 loadDDLCanal();
-                loadDDLClasificacionN3();
+                //loadDDLClasificacionN3();
                 loadDDLGenerador();
                 loadDDLLineaNegocio();
                 mtdLoadDDLEmpresa();
@@ -758,12 +758,12 @@ namespace ListasSarlaft.UserControls.Eventos
                 Mensaje("Error al cargar Estado. " + ex.Message);
             }
         }
-        private void loadDDLClasificacionN3()
+        private void loadDDLClasificacionN3(string IdSubclase)
         {
             try
             {
                 DataTable dtInfo = new DataTable();
-                dtInfo = cRiesgo.loadDDLClasificacionN3();
+                dtInfo = cRiesgo.loadDDLClasificacionN3(IdSubclase);
                 for (int i = 0; i < dtInfo.Rows.Count; i++)
                 {
                     ddlClasificacionN3.Items.Insert(i + 1, new ListItem(dtInfo.Rows[i]["Nombre"].ToString().Trim(), dtInfo.Rows[i]["Id"].ToString()));
@@ -1322,6 +1322,20 @@ namespace ListasSarlaft.UserControls.Eventos
                 loadDDLSubClaseRiesgo(DropDownList33.SelectedValue.ToString().Trim(), 1);
             }
         }
+
+        protected void DropDownList34_SelectedIndexChanged1(object sender, EventArgs e)
+        {
+            ddlClasificacionN3.Items.Clear();
+            ddlClasificacionN3.Items.Insert(0, new ListItem("---", "---"));
+            if (DropDownList34.SelectedValue.ToString().Trim() != "---")
+            {
+                loadDDLClasificacionN3(DropDownList34.SelectedValue.ToString().Trim());
+            }
+
+        }
+
+
+
 
         protected void DropDownList67_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -4431,6 +4445,9 @@ namespace ListasSarlaft.UserControls.Eventos
                 gvOrders.DataBind();
             }
         }
+
+ 
+
         private static DataTable GetData(string query)
         {
             string strConnString = ConfigurationManager.ConnectionStrings["SarlaftConnectionString"].ConnectionString;

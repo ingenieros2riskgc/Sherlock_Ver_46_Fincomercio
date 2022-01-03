@@ -426,7 +426,7 @@
                     <table id="TbConEventos" runat="server" visible="false" align="center">
                         <tr>
                             <td align="center">
-                                <asp:TabContainer ID="TabContainerEventos" runat="server" ActiveTabIndex="2" Font-Names="Calibri"
+                                <asp:TabContainer ID="TabContainerEventos" runat="server" ActiveTabIndex="1" Font-Names="Calibri"
                                     Font-Size="Small" Width="800px" aling="left" AutoPostBack="true" OnActiveTabChanged="TabContainerEventos_ActiveTabChanged">
                                     <asp:TabPanel ID="TabPanelCreaEvento" runat="server" HeaderText="Creación Evento"
                                         Font-Names="Calibri" Font-Size="Small">
@@ -1105,7 +1105,7 @@
                                                             InitialValue="---" ForeColor="Red" ValidationGroup="Addne1">*</asp:RequiredFieldValidator>
                                                     </td>
                                                 </tr>
-                                                <tr align="left" runat="server" visible="false">
+                                                <tr align="left" runat="server" visible="False">
                                                     <td bgcolor="#BBBBBB" runat="server">
                                                         <asp:Label ID="Label20" runat="server" Text="Actividad" Font-Names="Calibri" Font-Size="Small"></asp:Label>
                                                     </td>
@@ -1185,7 +1185,7 @@
                                                     </td>
                                                     <td runat="server">
                                                         <asp:DropDownList ID="DropDownList34" Width="200px" runat="server" Font-Names="Calibri"
-                                                            Font-Size="Small">
+                                                            Font-Size="Small"  AutoPostBack="True" OnSelectedIndexChanged="DropDownList34_SelectedIndexChanged1">
                                                             <asp:ListItem Value="---">---</asp:ListItem>
                                                         </asp:DropDownList>
                                                         <asp:RequiredFieldValidator ID="RequiredFieldValidator43" runat="server" ControlToValidate="DropDownList34"
@@ -1220,7 +1220,7 @@
                                                             InitialValue="---" ForeColor="Red" ValidationGroup="Addne1">*</asp:RequiredFieldValidator>
                                                     </td>
                                                 </tr>
-                                                <tr align="left" runat="server" visible="false">
+                                                <tr align="left" runat="server" visible="False">
                                                     <td bgcolor="#BBBBBB" runat="server">
                                                         <asp:Label ID="Label68" runat="server" Text="Línea Operativa" Font-Names="Calibri"
                                                             Font-Size="Small"></asp:Label>

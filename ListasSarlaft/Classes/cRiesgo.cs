@@ -1207,13 +1207,13 @@ namespace ListasSarlaft.Classes
             }
             return dtInformacion;
         }
-        public DataTable loadDDLClasificacionN3()
+        public DataTable loadDDLClasificacionN3(string IdSubClase)
         {
             DataTable dtInformacion = new DataTable();
             try
             {
                 cDataBase.conectar();
-                dtInformacion = cDataBase.ejecutarConsulta("SELECT * FROM Eventos.ClasificacionN3 ORDER BY id");
+                dtInformacion = cDataBase.ejecutarConsulta("SELECT * FROM Eventos.ClasificacionN3  WHERE IdSubClase = "+ IdSubClase + " ORDER BY id");
                 cDataBase.desconectar();
             }
             catch (Exception ex)

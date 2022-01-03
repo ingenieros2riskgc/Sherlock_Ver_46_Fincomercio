@@ -6,3 +6,12 @@ D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDatos\obj\Debug\DAL.csprojAs
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDatos\obj\Debug\DAL.csproj.CopyComplete
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDatos\obj\Debug\DAL.dll
 D:\Workspace\Sherlock\Fuentes\Ver4.6-Fincomercio\clsDatos\obj\Debug\DAL.pdb
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDatos\bin\Debug\DAL.dll
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDatos\bin\Debug\DAL.pdb
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDatos\bin\Debug\DTO.dll
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDatos\bin\Debug\DTO.pdb
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDatos\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDatos\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDatos\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDatos\obj\Debug\DAL.dll
+C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDatos\obj\Debug\DAL.pdb
