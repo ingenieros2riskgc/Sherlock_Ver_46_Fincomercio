@@ -2608,7 +2608,8 @@ namespace ListasSarlaft.UserControls.Eventos
                                                             dtInfo.Rows[rows]["HoraContab"].ToString().Trim(),
                                                             dtInfo.Rows[rows]["MinContab"].ToString().Trim(),
                                                             dtInfo.Rows[rows]["amContab"].ToString().Trim(),
-                                                            dtInfo.Rows[rows]["IdJerarquia"].ToString().Trim()
+                                                            dtInfo.Rows[rows]["IdJerarquia"].ToString().Trim(),
+                                                            dtInfo.Rows[rows]["idClasificacionN3"].ToString().Trim()
                                                           });
                 }
 
@@ -3151,6 +3152,20 @@ namespace ListasSarlaft.UserControls.Eventos
                         DropDownList34.SelectedIndex = 0;
                 }
             }
+
+            if (DropDownList34.SelectedValue != "---")
+            {
+                loadDDLClasificacionN3(DropDownList34.SelectedValue.ToString().Trim());
+                for (int i = 0; i < ddlClasificacionN3.Items.Count; i++)
+                {
+                    ddlClasificacionN3.SelectedIndex = i;
+                    if (ddlClasificacionN3.SelectedValue.ToString().Trim() == InfoGridEventos.Rows[RowGridEventos]["idClasificacionN3"].ToString().Trim())
+                        break;
+                    else
+                        ddlClasificacionN3.SelectedIndex = 0;
+                }
+            }
+
 
             for (int i = 0; i < DropDownList8.Items.Count; i++)
             {
@@ -4446,7 +4461,10 @@ namespace ListasSarlaft.UserControls.Eventos
             }
         }
 
- 
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
 
         private static DataTable GetData(string query)
         {
