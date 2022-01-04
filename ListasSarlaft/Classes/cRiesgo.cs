@@ -5277,5 +5277,32 @@ namespace ListasSarlaft.Classes
             return IdResponsable;
         }
         #endregion Notificacion Anulacion Riesgo
+
+
+        #region"Nombres Variables de Calificacion Control"
+        public DataTable NombreVariableCalificacionControl()
+        {
+            DataTable dtInformacion = new DataTable();
+
+            try {
+                cDataBase.conectar();
+                string strSelect = "select IdVariableCalificacionControl,DescripcionVariable from Parametrizacion.VariableCalificacionControl";
+
+                dtInformacion = cDataBase.ejecutarConsulta(strSelect);
+                cDataBase.desconectar();
+
+            }
+            catch (Exception ex)
+            {
+                cDataBase.desconectar();
+                cError.errorMessage(ex.Message + ", " + ex.StackTrace);
+                throw new Exception(ex.Message);
+            }
+
+            return dtInformacion;
+
+        }
+        #endregion
+
     }
 }

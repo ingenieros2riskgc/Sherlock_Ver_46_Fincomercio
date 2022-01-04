@@ -298,7 +298,7 @@
                                                 CssClass="table-center"
                                                 BorderStyle="Solid" HorizontalAlign="Center" Font-Names="Calibri" Font-Size="Small"
                                                 DataKeyNames="IdEvento,IdJerarquia"
-                                                OnRowCommand="GridView1_RowCommand" AllowPaging="True" OnPageIndexChanging="GridView1_PageIndexChanging">
+                                                OnRowCommand="GridView1_RowCommand" AllowPaging="True" OnPageIndexChanging="GridView1_PageIndexChanging" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
                                                 <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                                                 <Columns>
                                                     <asp:BoundField HeaderText="Código" DataField="CodigoEvento" ItemStyle-HorizontalAlign="Center"/>

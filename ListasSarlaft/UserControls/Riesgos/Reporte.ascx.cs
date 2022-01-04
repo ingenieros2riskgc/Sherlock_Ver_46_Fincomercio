@@ -982,7 +982,7 @@ namespace ListasSarlaft.UserControls.Riesgos
 
             try
             {
-                DataTable dtInfo = new DataTable();
+                DataTable dtInfo = new DataTable(); 
                 dtInfo = cRiesgo.ReporteRiesgos(DropDownList52.SelectedValue.ToString().Trim(), DropDownList53.SelectedValue.ToString().Trim(),
                     DropDownList54.SelectedValue.ToString().Trim(), DropDownList56.SelectedValue.ToString().Trim(), DropDownList57.SelectedValue.ToString().Trim(),
                     DropDownList2.SelectedValue.ToString().Trim(), DropDownList3.SelectedValue.ToString().Trim(), DropDownList4.SelectedValue.ToString().Trim(), "2", "---",
@@ -1069,6 +1069,20 @@ namespace ListasSarlaft.UserControls.Riesgos
                         }
 
                     }
+                    DataTable dtInfoNombreVariables= new DataTable();
+                    dtInfoNombreVariables = cRiesgo.NombreVariableCalificacionControl();
+                    if (dtInfoNombreVariables.Rows.Count > 0)
+                    {
+                
+                        InfoGridReporteRiesgosControles.Columns["Variable1"].ColumnName = dtInfoNombreVariables.Rows[0]["DescripcionVariable"].ToString();
+                        InfoGridReporteRiesgosControles.Columns["Variable2"].ColumnName = dtInfoNombreVariables.Rows[1]["DescripcionVariable"].ToString();
+                        InfoGridReporteRiesgosControles.Columns["Variable3"].ColumnName = dtInfoNombreVariables.Rows[2]["DescripcionVariable"].ToString();
+                        InfoGridReporteRiesgosControles.Columns["Variable4"].ColumnName = dtInfoNombreVariables.Rows[3]["DescripcionVariable"].ToString();
+                        InfoGridReporteRiesgosControles.Columns["Variable5"].ColumnName = dtInfoNombreVariables.Rows[4]["DescripcionVariable"].ToString();
+
+                    }
+
+
                     #endregion Recorrido para llenar informacion
 
                     GridView2.PageIndex = PagIndexInfoGridReporteRiesgosControles;
