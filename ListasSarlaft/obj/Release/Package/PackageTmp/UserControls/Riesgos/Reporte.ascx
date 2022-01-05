@@ -27,6 +27,13 @@
 <asp:PostBackTrigger ControlID="Button4"></asp:PostBackTrigger>
 <asp:PostBackTrigger ControlID="Button5"></asp:PostBackTrigger>
 <asp:PostBackTrigger ControlID="Button8"></asp:PostBackTrigger>
+<asp:PostBackTrigger ControlID="Button6"></asp:PostBackTrigger>
+<asp:PostBackTrigger ControlID="Button1"></asp:PostBackTrigger>
+<asp:PostBackTrigger ControlID="Button2"></asp:PostBackTrigger>
+<asp:PostBackTrigger ControlID="Button3"></asp:PostBackTrigger>
+<asp:PostBackTrigger ControlID="Button4"></asp:PostBackTrigger>
+<asp:PostBackTrigger ControlID="Button5"></asp:PostBackTrigger>
+<asp:PostBackTrigger ControlID="Button8"></asp:PostBackTrigger>
     </Triggers>
     <ContentTemplate>
         <table align="center" bgcolor="#EEEEEE">
@@ -361,7 +368,7 @@
                         <tr align="left">
                             <td>
                                 <asp:Button ID="Button3" runat="server" Text="Exportar" ToolTip="Exportar" Font-Names="Calibri"
-                                    Font-Size="Small" OnClick="Button3_Click" />
+                                    Font-Size="Small" OnClick="Button3_Click" style="height: 25px" />
                             </td>
                         </tr>
                         <tr align="center">

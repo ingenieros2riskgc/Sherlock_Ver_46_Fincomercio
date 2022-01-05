@@ -1934,7 +1934,7 @@ namespace ListasSarlaft.UserControls.Eventos
                            "<br/><B> Descripción del evento: </B>" + TextBox44.Text.Trim() + "<br/>En la aplicación de Sherlock para la Gestión de Riesgos y Control Interno.<br/>");
                 if(DropDownList16.SelectedValue == "2")
                     {
-                        boolEnviarNotificacion(9, Convert.ToInt16("0"), Convert.ToInt16(Session["IdJerarquia"].ToString()), "",
+                        boolEnviarNotificacion(37, Convert.ToInt16("0"), Convert.ToInt16(Session["IdJerarquia"].ToString()), "",
                                                    "Se ha realizado el cierre del Evento: <br /><B>Código Evento: </B>" + Label55.Text.Trim() +
                                                    "<br/><B> Descripción del evento: </B>" + TextBox44.Text.Trim() + "<br/>En la aplicación de Sherlock para la Gestión de Riesgos y Control Interno.<br/>");
                     }
@@ -3214,10 +3214,20 @@ namespace ListasSarlaft.UserControls.Eventos
                     DropDownList15.SelectedIndex = 0;
             }
 
+            string idestado= InfoGridEventos.Rows[RowGridEventos]["IdEstado"].ToString().Trim();
+
+            if (idestado == "Abierto")
+            {
+                idestado = "1";
+            }else if (idestado == "Cerrado")
+            {
+                idestado = "2";
+            }
+
             for (int i = 0; i < DropDownList16.Items.Count; i++)
             {
                 DropDownList16.SelectedIndex = i;
-                if (DropDownList16.SelectedValue.ToString().Trim() == InfoGridEventos.Rows[RowGridEventos]["IdEstado"].ToString().Trim())
+                if (DropDownList16.SelectedValue.ToString().Trim() == idestado) //InfoGridEventos.Rows[RowGridEventos]["IdEstado"].ToString().Trim())
                     break;
                 else
                     DropDownList16.SelectedIndex = 0;
