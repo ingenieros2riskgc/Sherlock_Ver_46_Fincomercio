@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using System.Data;
 using ListasSarlaft.Classes;
 using Microsoft.Security.Application;
+using System.Threading;
 
 namespace ListasSarlaft.UserControls.Eventos
 {
@@ -45,6 +46,21 @@ namespace ListasSarlaft.UserControls.Eventos
             {
                 pagIndexInfoGridReporteRiesgos = value;
                 ViewState["pagIndexInfoGridReporteRiesgos"] = pagIndexInfoGridReporteRiesgos;
+            }
+        }
+
+        private int pagIndexInfoGridReporteConsolidado;
+        private int PagIndexInfoGridReporteConsolidado
+        {
+            get
+            {
+                pagIndexInfoGridReporteConsolidado = (int)ViewState["pagIndexInfoGridReporteConsolidado"];
+                return pagIndexInfoGridReporteConsolidado;
+            }
+            set
+            {
+                pagIndexInfoGridReporteConsolidado = value;
+                ViewState["pagIndexInfoGridReporteConsolidado"] = pagIndexInfoGridReporteConsolidado;
             }
         }
 
@@ -90,6 +106,21 @@ namespace ListasSarlaft.UserControls.Eventos
             {
                 infoGridReporteRiesgosEventos = value;
                 ViewState["infoGridReporteRiesgosEventos"] = infoGridReporteRiesgosEventos;
+            }
+        }
+
+        private DataTable infoGridReporteConsolidado;
+        private DataTable InfoGridReporteConsolidado
+        {
+            get
+            {
+                infoGridReporteConsolidado = (DataTable)ViewState["infoGridReporteConsolidado"];
+                return infoGridReporteConsolidado;
+            }
+            set
+            {
+                infoGridReporteConsolidado = value;
+                ViewState["infoGridReporteConsolidado"] = infoGridReporteConsolidado;
             }
         }
 
@@ -446,7 +477,7 @@ namespace ListasSarlaft.UserControls.Eventos
                         dtInfo.Rows[rows]["CodigoEvento"].ToString().Trim(),
                         dtInfo.Rows[rows]["Empresa"].ToString().Trim(),
                         dtInfo.Rows[rows]["FechaNoHuboEvento"].ToString().Trim(),
-                        dtInfo.Rows[rows]["NombreResponsable"].ToString().Trim(),                                                                  
+                        dtInfo.Rows[rows]["NombreResponsable"].ToString().Trim(),
                         dtInfo.Rows[rows]["Cargo"].ToString().Trim(),
                         dtInfo.Rows[rows]["Area"].ToString().Trim()
                         });
@@ -463,6 +494,69 @@ namespace ListasSarlaft.UserControls.Eventos
             }
         }
         #endregion No hubo evento
+
+        #region Consolidado
+
+        private void loadGridReporteConsolidado()
+        {
+            DataTable grid = new DataTable();
+            grid.Columns.Add("Código", typeof(string));
+            grid.Columns.Add("Empresa", typeof(string));
+            grid.Columns.Add("Area", typeof(string));
+            grid.Columns.Add("Usuario", typeof(string));
+            grid.Columns.Add("NombreUsuarioRegistro", typeof(string));
+            grid.Columns.Add("Fecha Registro", typeof(string));
+            grid.Columns.Add("Región", typeof(string));
+            grid.Columns.Add("Pais", typeof(string));
+            grid.Columns.Add("Departamento", typeof(string));
+            grid.Columns.Add("Ciudad", typeof(string));
+            grid.Columns.Add("Oficina/Sucursal", typeof(string));
+            grid.Columns.Add("Detalle Ubicación", typeof(string));
+            grid.Columns.Add("Descripción Evento", typeof(string));
+            grid.Columns.Add("Servicio/Producto", typeof(string));
+            grid.Columns.Add("SubServicio/SubProducto", typeof(string));
+            grid.Columns.Add("Fecha Inicio", typeof(string));
+            grid.Columns.Add("Hora Inicio", typeof(string));
+            grid.Columns.Add("Fecha Finalización", typeof(string));
+            grid.Columns.Add("Hora Finalización", typeof(string));
+            grid.Columns.Add("Fecha Descubrimiento", typeof(string));
+            grid.Columns.Add("Hora Descubrimiento", typeof(string));
+            grid.Columns.Add("Canal", typeof(string));
+            grid.Columns.Add("Generador del Evento", typeof(string));
+            grid.Columns.Add("Responsable Evento", typeof(string));
+            grid.Columns.Add("Posible Cuantía de Pérdida ", typeof(string));
+            grid.Columns.Add("Cadena Valor", typeof(string));
+            grid.Columns.Add("MacroProceso", typeof(string));
+            grid.Columns.Add("Proceso", typeof(string));
+            grid.Columns.Add("SubProceso", typeof(string));
+            grid.Columns.Add("Responsable Solución", typeof(string));
+            grid.Columns.Add("Clasificación Nivel 1", typeof(string));
+            grid.Columns.Add("Clasificación Nivel 2", typeof(string));
+            grid.Columns.Add("Clasificación Nivel 3", typeof(string));
+            grid.Columns.Add("Tipo de Pérdida", typeof(string));
+            grid.Columns.Add("Más Líneas Operativas", typeof(string));
+            grid.Columns.Add("Afecta Continuidad", typeof(string));
+            grid.Columns.Add("Estado", typeof(string));
+            grid.Columns.Add("Observaciones", typeof(string));
+            grid.Columns.Add("Responsable Contabilidad", typeof(string));
+            grid.Columns.Add("Cuenta PUC", typeof(string));
+            grid.Columns.Add("Valor recuperado por seguros", typeof(string));
+            grid.Columns.Add("Pérdida inicial", typeof(string));
+            grid.Columns.Add("Valor recuperado otros conceptos", typeof(string));
+            grid.Columns.Add("Pérdida Final", typeof(string));
+            grid.Columns.Add("Recuperación ", typeof(string));
+            grid.Columns.Add("Fuente de la Recuperación", typeof(string));
+            grid.Columns.Add("Fecha Contabilización", typeof(string));
+
+
+            InfoGridReporteConsolidado = grid;
+            GridView5.DataSource = InfoGridReporteConsolidado;
+            GridView5.DataBind();
+        }
+
+
+
+        #endregion
 
         #region Eventos
         private void loadGridReporteRiesgosControles()
@@ -609,6 +703,186 @@ namespace ListasSarlaft.UserControls.Eventos
         }
         #endregion Eventos
 
+        #region
+        protected void GridView5_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            PagIndexInfoGridReporteConsolidado = e.NewPageIndex;
+            GridView5.PageIndex = PagIndexInfoGridReporteConsolidado;
+            GridView5.DataSource = InfoGridReporteConsolidado;
+            GridView5.DataBind();
+
+        }
+
+        private void loadInfoReporteConsolidado()
+        {
+            DataTable dtInfo = new DataTable();
+            dtInfo = cEvento.ReporteEventos(DropDownList52.SelectedValue.ToString().Trim(),
+                DropDownList53.SelectedValue.ToString().Trim(), DropDownList54.SelectedValue.ToString().Trim(),
+                DropDownList56.SelectedValue.ToString().Trim(), DropDownList57.SelectedValue.ToString().Trim(),
+                DropDownList2.SelectedValue.ToString().Trim(), DropDownList3.SelectedValue.ToString().Trim(),
+                DropDownList4.SelectedValue.ToString().Trim(),
+                "2", "---", Sanitizer.GetSafeHtmlFragment(TextBox1.Text.Trim()), Sanitizer.GetSafeHtmlFragment(TextBox2.Text.Trim()));
+
+            if (dtInfo.Rows.Count > 0)
+            {
+                for (int rows = 0; rows < dtInfo.Rows.Count; rows++)
+                {
+                    InfoGridReporteConsolidado.Rows.Add(new Object[] {
+                        dtInfo.Rows[rows]["Código"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Empresa"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Area"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Usuario"].ToString().Trim(),
+                        dtInfo.Rows[rows]["NombreUsuarioRegistro"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Fecha Registro"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Región"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Pais"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Departamento"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Ciudad"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Oficina/Sucursal"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Detalle Ubicación"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Descripción Evento"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Servicio/Producto"].ToString().Trim(),
+                        dtInfo.Rows[rows]["SubServicio/SubProducto"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Fecha Inicio"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Hora Inicio"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Fecha Finalización"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Hora Finalización"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Fecha Descubrimiento"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Hora Descubrimiento"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Canal"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Generador del Evento"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Responsable Evento"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Posible Cuantía de Pérdida"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Cadena Valor"].ToString().Trim(),
+                        dtInfo.Rows[rows]["MacroProceso"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Proceso"].ToString().Trim(),
+                        dtInfo.Rows[rows]["SubProceso"].ToString().Trim(),
+                        //dtInfo.Rows[rows]["Actividad"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Responsable Solución"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Clasificación Nivel 1"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Clasificación Nivel 2"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Clasificación Nivel 3"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Tipo de Pérdida"].ToString().Trim(),
+                        //dtInfo.Rows[rows]["Línea Operativa"].ToString().Trim(),
+                        //dtInfo.Rows[rows]["SubLínea Operativa"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Más Líneas Operativas"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Afecta Continuidad"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Estado"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Observaciones"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Responsable Contabilidad"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Cuenta PUC"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Valor recuperado por seguros"].ToString().Trim(),
+                        //dtInfo.Rows[rows]["Tasa de Cambio"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Pérdida inicial"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Valor recuperado otros conceptos"].ToString().Trim(),
+                        //dtInfo.Rows[rows]["Tasa de Cambio 2"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Pérdida Final"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Recuperación"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Fuente de la Recuperación"].ToString().Trim(),
+                        dtInfo.Rows[rows]["Fecha Contabilización"].ToString().Trim()
+                        });
+                }
+
+
+            }
+            else
+            {
+                loadGridReporteRiesgosControles();
+                Mensaje("No existen registros asociados a los parámetros de consulta.");
+            }
+
+            DataTable dtInfo2 = new DataTable();
+
+            dtInfo2 = cEvento.ReporteEventos(DropDownList52.SelectedValue.ToString().Trim(),
+                DropDownList53.SelectedValue.ToString().Trim(), DropDownList54.SelectedValue.ToString().Trim(),
+                DropDownList56.SelectedValue.ToString().Trim(), DropDownList57.SelectedValue.ToString().Trim(),
+                DropDownList2.SelectedValue.ToString().Trim(), DropDownList3.SelectedValue.ToString().Trim(),
+                DropDownList4.SelectedValue.ToString().Trim(),
+                "1", "---", Sanitizer.GetSafeHtmlFragment(TextBox1.Text.Trim()), Sanitizer.GetSafeHtmlFragment(TextBox2.Text.Trim()));
+
+            if (dtInfo2.Rows.Count > 0)
+            {
+                for (int rows = 0; rows < dtInfo2.Rows.Count; rows++)
+                {
+
+                    InfoGridReporteConsolidado.Rows.Add(new Object[] {
+                        dtInfo2.Rows[rows]["CodigoEvento"].ToString().Trim(),
+                        dtInfo2.Rows[rows]["Empresa"].ToString().Trim(),
+                        dtInfo2.Rows[rows]["Area"].ToString().Trim(),
+                        string.Empty,
+                        dtInfo2.Rows[rows]["NombreResponsable"].ToString().Trim(),
+                        dtInfo2.Rows[rows]["FechaNoHuboEvento"].ToString().Trim(),
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        "No hubo evento",
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        string.Empty,
+                        });
+                }
+
+                /*GridView1.PageIndex = PagIndexInfoGridReporteRiesgos;
+                GridView1.DataSource = InfoGridReporteRiesgos;
+                GridView1.DataBind();*/
+            }
+            else
+            {
+                loadGridReporteRiesgos();
+                Mensaje("No existen registros asociados a los parámetros de consulta.");
+            }
+
+
+
+
+            DataView dtV = InfoGridReporteConsolidado.DefaultView;
+            dtV.Sort = "Fecha Registro DESC";
+            InfoGridReporteConsolidado = dtV.ToTable();
+
+
+
+            GridView5.PageIndex = PagIndexInfoGridReporteConsolidado;
+            GridView5.DataSource = InfoGridReporteConsolidado;
+            GridView5.DataBind();
+
+        }
+
+        #endregion
+
         #region Sin Reporte
         private void mtdLoadGridReporte_SinReporte()
         {
@@ -746,8 +1020,14 @@ namespace ListasSarlaft.UserControls.Eventos
                         break;
                     case "5":
                         #region Consolidado
-                        verreporteconsolidado();
+
+                        loadGridReporteConsolidado();
+                        loadInfoReporteConsolidado();
                         resetValuesConsulta();
+                        ReporteRiesgosEventosConsolidado.Visible = true;
+
+                        // verreporteconsolidado();
+                        // resetValuesConsulta();
                         #endregion
                         break;
                 }
@@ -836,6 +1116,7 @@ namespace ListasSarlaft.UserControls.Eventos
             PagIndexInfoGridReporteRiesgosControles = 0;
             PagIndexInfoGridReporteRiesgosEventos = 0;
             PagIndexInfoGridReporteSinRepEventos = 0;
+            PagIndexInfoGridReporteConsolidado = 0;
         }
 
         private String causas(String Causas)
@@ -883,7 +1164,38 @@ namespace ListasSarlaft.UserControls.Eventos
             dg.DataBind();
             dg.RenderControl(htmlWrite);
             Response.Write(stringWrite.ToString());
+            
+
             Response.End();
+        }
+
+        public static void exportExcel2(DataTable dt, HttpResponse Response, string filename)
+        {
+            try
+            {
+
+                Response.Clear();
+                Response.ContentType = "application/vnd.ms-excel";
+                Response.AddHeader("Content-Disposition", "attachment;filename=" + filename + ".xls");
+                Response.ContentEncoding = System.Text.Encoding.Default;
+                System.IO.StringWriter stringWrite = new System.IO.StringWriter();
+                System.Web.UI.HtmlTextWriter htmlWrite = new System.Web.UI.HtmlTextWriter(stringWrite);
+                System.Web.UI.WebControls.DataGrid dg = new System.Web.UI.WebControls.DataGrid();
+                dg.DataSource = dt;
+                dg.DataBind();
+                dg.RenderControl(htmlWrite);
+                Response.Write(stringWrite.ToString());
+                HttpContext.Current.Response.End();
+
+            }
+            catch (System.Threading.ThreadAbortException err)
+            {
+               // System.Threading.Thread.ResetAbort();
+            }
+            catch (Exception err)
+            {
+            }          
+
         }
 
         private void resetValuesConsulta()
@@ -905,6 +1217,7 @@ namespace ListasSarlaft.UserControls.Eventos
             ReporteRiesgosEventos.Visible = false;
             TextBox1.Text = "";
             TextBox2.Text = "";
+            ReporteRiesgosEventosConsolidado.Visible = false;
         }
 
         private void Mensaje(String Mensaje)
@@ -913,5 +1226,23 @@ namespace ListasSarlaft.UserControls.Eventos
             mpeMsgBox.Show();
         }
 
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            try {
+
+                exportExcel2(InfoGridReporteConsolidado, Response, "Reporte Consolidado");
+
+               }
+            catch (Exception ex)
+            {
+                Mensaje("Error al exportar Reporte Eventos vrs Planes de Acción." + ex.Message);
+            }
+
+        } 
+
+        protected void GridView5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

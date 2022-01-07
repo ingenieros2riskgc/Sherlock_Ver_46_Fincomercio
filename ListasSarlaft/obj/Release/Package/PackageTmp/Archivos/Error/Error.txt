@@ -4851,3 +4851,111 @@ No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByInde
    en ListasSarlaft.Classes.cDataBase.conectar() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cDataBase.cs:línea 31
    en ListasSarlaft.Classes.cCuenta.permisosConsulta(String IdFormulario) en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 388
 2022-01-04 8:12:04
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:09:51
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:09:54
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:10:05
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:10:16
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:10:37
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:10:51
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:10:57
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:10:57
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:11:04
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:11:06
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:11:09
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:11:12
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:11:20
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:11:31
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:11:34
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:11:57
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 11:12:09
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.autenticarUsuario(String Usuario, String Contrasena) en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 362
+2022-01-05 13:09:43
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.mtdUsuarioBloqueado(String Usuario, String Contrasena) en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1032
+2022-01-05 13:09:43
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.MensajeLogin(String Usuario) en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 181
+2022-01-05 13:10:05
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1005
+2022-01-05 14:42:21
