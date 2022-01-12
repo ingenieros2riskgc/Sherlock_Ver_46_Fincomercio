@@ -1183,7 +1183,7 @@ SELECT [IdRecomendacion], [Numero], [IdHallazgo], [Tipo], [IdDependenciaAuditada
                                         </td>
                                         <td>
                                             <asp:ImageButton ID="imgBtnPlaneacion" runat="server" ImageUrl="~/Imagenes/Icons/table_select_row.png"
-                                                OnClientClick="return false;" Style="width: 16px" />
+                                                OnClientClick="return false;" OnClick="imgBtnPlaneacion_Click" />
                                             <asp:PopupControlExtender ID="popupPlanea" runat="server" BehaviorID="popupPlaneacion"
                                                 Enabled="True" ExtenderControlID="" PopupControlID="pnlPlaneacion" Position="Bottom"
                                                 TargetControlID="imgBtnPlaneacion" OffsetX="-200">

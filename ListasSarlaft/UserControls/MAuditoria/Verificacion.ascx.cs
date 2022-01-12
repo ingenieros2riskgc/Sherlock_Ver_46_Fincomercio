@@ -2617,5 +2617,9 @@ namespace ListasSarlaft.UserControls.MAuditoria
         }
         #endregion
 
+        protected void imgBtnPlaneacion_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
     }
 }

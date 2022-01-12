@@ -77,3 +77,41 @@ C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\ob
 C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
 C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\Microsoft.ReportViewer.DataVisualization.dll
 C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\Microsoft.SqlServer.Types.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\ListasSarlaft.dll.config
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\ListasSarlaft.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\ListasSarlaft.pdb
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\DAL.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\DLL.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\DocumentFormat.OpenXml.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\DTO.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\Microsoft.ReportViewer.Common.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\System.Configuration.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\System.Data.DataSetExtensions.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\System.Data.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\System.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\System.Drawing.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\System.EnterpriseServices.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\System.Web.ApplicationServices.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\System.Web.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\System.Web.DynamicData.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\System.Web.Entity.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\System.Web.Extensions.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\System.Web.Mobile.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\System.Web.Services.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\System.Xml.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\System.Xml.Linq.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\Microsoft.SqlServer.Types.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\DAL.pdb
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\DTO.pdb
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\DLL.pdb
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\DocumentFormat.OpenXml.xml
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\obj\Debug\ListasSarlaft.csproj.AssemblyReference.cache
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\obj\Debug\RdlCompile.cache
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\obj\Debug\RdlCompile.compiled
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\obj\Debug\ListasSarlaft.csproj.CoreCompileInputs.cache
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\obj\Debug\ListasSarlaft.csproj.CopyComplete
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\obj\Debug\ListasSarlaft.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\obj\Debug\ListasSarlaft.pdb
