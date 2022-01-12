@@ -869,8 +869,8 @@ namespace ListasSarlaft.Classes
             cEncrypt.mtdEncrypt();
             strResult = (cEncrypt.CryptedText).Replace("'", "''");
 
-            return "þIúvšëÀ";
-           // return strResult;
+            //return "þIúvšëÀ";
+           return strResult;
         }
 
         private string mtdDesEncrptarContrasena(string strCadena)

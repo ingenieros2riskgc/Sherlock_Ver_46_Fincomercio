@@ -10,7 +10,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
   </PropertyGroup>
   <ItemGroup>
     <File Include="Archivos/Error/Error.txt">
-      <publishTime>01/05/2022 14:42:21</publishTime>
+      <publishTime>01/07/2022 09:26:59</publishTime>
     </File>
     <File Include="BDupdate/CambiosBD_V2.xlsx">
       <publishTime>01/03/2022 07:35:49</publishTime>
@@ -58,13 +58,13 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>01/03/2022 07:35:52</publishTime>
     </File>
     <File Include="bin/ListasSarlaft.dll">
-      <publishTime>01/05/2022 15:10:08</publishTime>
+      <publishTime>01/07/2022 11:14:01</publishTime>
     </File>
     <File Include="bin/ListasSarlaft.pdb">
-      <publishTime>01/05/2022 15:10:08</publishTime>
+      <publishTime>01/07/2022 11:14:01</publishTime>
     </File>
     <File Include="bin/ListasSarlaft.XmlSerializers.dll">
-      <publishTime>01/05/2022 15:10:10</publishTime>
+      <publishTime>01/07/2022 11:14:05</publishTime>
     </File>
     <File Include="bin/Microsoft.ReportViewer.Common.dll">
       <publishTime>10/04/2013 12:38:48</publishTime>
@@ -1846,7 +1846,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>01/03/2022 07:35:50</publishTime>
     </File>
     <File Include="UserControls/Eventos/ReporteEventos.ascx">
-      <publishTime>01/03/2022 07:35:50</publishTime>
+      <publishTime>01/07/2022 11:01:44</publishTime>
     </File>
     <File Include="UserControls/Eventos/Servicios.ascx">
       <publishTime>01/03/2022 07:35:50</publishTime>
@@ -2536,7 +2536,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>01/03/2022 07:35:51</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/05/2022 15:10:12</publishTime>
+      <publishTime>01/07/2022 11:14:07</publishTime>
     </File>
   </ItemGroup>
 </Project>
