@@ -180,7 +180,7 @@
                         <tr>
                             <td>
                                 <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Imagenes/Icons/lupa.png"
-                                    ToolTip="Consultar" ValidationGroup="consultar" OnClick="ImageButton1_Click" />
+                                    ToolTip="Consultar" ValidationGroup="consultar" OnClick="ImageButton1_Click" style="width: 32px" />
                             </td>
                             <td>
                                 <asp:ImageButton ID="ImageButton5" runat="server" ImageUrl="~/Imagenes/Icons/cancel.png"
@@ -359,6 +359,58 @@
                     </table>
                 </td>
             </tr>
+            <tr align="center" id="ReporteRiesgosEventosConsolidado" runat="server" visible="false">
+                <td>
+                    <table>
+                         <tr align="left">
+                            <td>
+                                <asp:Button ID="Button4" runat="server" Text="Exportar"  ToolTip="Exportar" Font-Names="Calibri"
+                                    Font-Size="Small" OnClick="Button4_Click" />
+                            </td>
+                          </tr>
+
+                         <tr align="center">
+                            <td>
+                                <asp:GridView ID="GridView5" runat="server" AutoGenerateColumns="False" CellPadding="4"
+                                    ForeColor="#333333" GridLines="Vertical" ShowHeaderWhenEmpty="True" HeaderStyle-CssClass="gridViewHeader"
+                                    BorderStyle="Solid" HorizontalAlign="Center" Font-Names="Calibri" Font-Size="Small"
+                                    AllowPaging="True" OnPageIndexChanging="GridView5_PageIndexChanging">
+                                    <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                                    <Columns>
+                                        <asp:BoundField HeaderText="Código" DataField="Código" />
+                                        <asp:BoundField HeaderText="Empresa" DataField="Empresa" />
+                                        <asp:BoundField HeaderText="Cadena Valor" DataField="Cadena Valor" />
+                                        <asp:BoundField DataField="MacroProceso" HeaderText="Macroproceso" />
+                                        <asp:BoundField DataField="Estado" HeaderText="Estado" />
+                                        <asp:BoundField DataField="Proceso" HeaderText="Proceso" />
+                                        <asp:BoundField DataField="SubProceso" HeaderText="SubProceso" />
+                                        <%-- <asp:BoundField DataField="Actividad" HeaderText="Actividad" />--%>
+                                        <asp:BoundField DataField="Responsable Solución" HeaderText="Responsable Solución" />
+                                        <%--<asp:BoundField DataField="Cargo" HeaderText="Cargo" />
+                                        <asp:BoundField DataField="Area" HeaderText="Área" />--%>
+                                        <asp:BoundField HeaderText="Fecha Registro" DataField="Fecha Registro" />
+                                    </Columns>
+                                    <EditRowStyle BackColor="#999999" />
+                                    <FooterStyle BackColor="White" Font-Bold="True" ForeColor="White" />
+                                    <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                                    <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+                                    <RowStyle BackColor="#F7F6F3" ForeColor="#333333" HorizontalAlign="Left" />
+                                    <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+                                    <SortedAscendingCellStyle BackColor="#E9E7E2" />
+                                    <SortedAscendingHeaderStyle BackColor="#506C8C" />
+                                    <SortedDescendingCellStyle BackColor="#FFFDF8" />
+                                    <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
+                                </asp:GridView>
+                                
+                            </td>
+
+                         </tr>
+
+                    </table>
+
+                </td>
+
+            </tr>
         </table>
         <asp:ModalPopupExtender ID="mpeMsgBox" runat="server" TargetControlID="btndummy"
             PopupControlID="pnlMsgBox" OkControlID="btnAceptar" BackgroundCssClass="FondoAplicacion"
@@ -395,6 +447,7 @@
         <asp:PostBackTrigger ControlID="Button1" />
         <asp:PostBackTrigger ControlID="Button2" />
         <asp:PostBackTrigger ControlID="Button3" />
+        <asp:PostBackTrigger ControlID="Button4" />
         <asp:PostBackTrigger ControlID="DropDownList1" />
         <asp:PostBackTrigger ControlID="ImageButton1" />
     </Triggers>

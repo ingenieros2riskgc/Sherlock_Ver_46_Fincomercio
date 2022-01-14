@@ -949,7 +949,7 @@ namespace ListasSarlaft.UserControls.Riesgos
             grid.Columns.Add("ResponsableControlCalificacion", typeof(string));
             grid.Columns.Add("FechaRegistroControl", typeof(string));
             grid.Columns.Add("NombrePeriodicidad", typeof(string));
-            grid.Columns.Add("NombreTest", typeof(string));
+            grid.Columns.Add("TipoDeControl", typeof(string));
             grid.Columns.Add("Variable1", typeof(string));
             grid.Columns.Add("Variable2", typeof(string));
             grid.Columns.Add("Variable3", typeof(string));

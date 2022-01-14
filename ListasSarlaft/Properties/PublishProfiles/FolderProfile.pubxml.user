@@ -1,0 +1,2541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\lenovo\OneDrive - 848096_1398524_DATALAFT_SAS\Escritorio\publicaciones</_PublishTargetUrl>
+    <History>True|2022-01-13T18:43:33.2846587Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Archivos/Error/Error.txt">
+      <publishTime>01/11/2022 07:36:08</publishTime>
+    </File>
+    <File Include="BDupdate/CambiosBD_V2.xlsx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="bin/AntiXSSLibrary.dll">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.dll">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>01/13/2022 13:43:07</publishTime>
+    </File>
+    <File Include="bin/DAL.pdb">
+      <publishTime>01/13/2022 13:43:07</publishTime>
+    </File>
+    <File Include="bin/DLL.dll">
+      <publishTime>01/13/2022 13:43:08</publishTime>
+    </File>
+    <File Include="bin/DLL.pdb">
+      <publishTime>01/13/2022 13:43:08</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>09/01/2012 02:24:26</publishTime>
+    </File>
+    <File Include="bin/DTO.dll">
+      <publishTime>01/11/2022 07:31:28</publishTime>
+    </File>
+    <File Include="bin/DTO.pdb">
+      <publishTime>01/11/2022 07:31:28</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.SqlServer.Types.resources.dll">
+      <publishTime>05/15/2014 15:10:32</publishTime>
+    </File>
+    <File Include="bin/Excel.dll">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="bin/HtmlSanitizationLibrary.dll">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="bin/ICSharpCode.SharpZipLib.dll">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="bin/ListasSarlaft.dll">
+      <publishTime>01/13/2022 13:43:20</publishTime>
+    </File>
+    <File Include="bin/ListasSarlaft.pdb">
+      <publishTime>01/13/2022 13:43:20</publishTime>
+    </File>
+    <File Include="bin/ListasSarlaft.XmlSerializers.dll">
+      <publishTime>01/13/2022 13:43:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.Common.dll">
+      <publishTime>01/11/2022 07:31:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.ProcessingObjectModel.DLL">
+      <publishTime>01/11/2022 07:31:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebForms.DLL">
+      <publishTime>01/11/2022 07:31:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.Types.dll">
+      <publishTime>05/15/2014 15:06:44</publishTime>
+    </File>
+    <File Include="bin/System.Configuration.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Data.DataSetExtensions.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Data.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Drawing.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.EnterpriseServices.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.ApplicationServices.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.DynamicData.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.Entity.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.Extensions.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mobile.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.Services.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Xml.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Xml.Linq.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="ClassDiagram1.cd">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Classes/Archivos/Error/Error.txt">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="DataSet/dsConocimientoCliente.xsc">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="DataSet/dsConocimientoCliente.xss">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="DataSet/dsConocimientoClientePJ.xsc">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="DataSet/dsConocimientoClientePJ.xss">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="DataSet/dsConocimientoClientePN.xsc">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="DataSet/dsConocimientoClientePN.xss">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="DataSet/dsIndicador.xsc">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="DataSet/dsIndicador.xss">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="DataSet/DSreportCaracterizacionHead.xsc">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="DataSet/DSreportCaracterizacionHead.xss">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="DataSetRelFactorSenal.xsc">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="DataSetRelFactorSenal.xss">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/AdminUsers/AgregarUsuario.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/AdminUsers/CambioContrasena.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/AdminUsers/ConsultarUsuario.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/AdminUsers/Roles.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Alertas/SAlertas.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Alertas/SubirArchivo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/Arbol.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/ArbolOnDemandAjax.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmAuditoria.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmAuditoriaGestion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmCalificacionControl.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmCiclo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmEnfoque.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmEstandar.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmGestionAuditoria.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmGruposAuditoria.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmNaturaleza.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmObjetivo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmOtrosFactores.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmPlanAuditoria.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmPlaneacion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmPlanesAccion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmRecomendaciones.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmReporteAuditoria.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmReporteAuditoriaAnulada.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmReporteAuditoriaPlan.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmReporteAuditoriaSeg1.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmReporteHallazgoVsPlanAccion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmReportePlanAuditoria.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmReporteSeguimiento.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmRiesgoInherente.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmSeguimiento.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmTipoEstandar.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/AudAdmVerificacion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/Gestion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Admin/PruebadeReporte.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Reportes/GestionAuditoria.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Reportes/ReporteHallazgos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Auditoria/Reportes/ReporteRecomendaciones.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Calidad/GestionRequerimientos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Calidad/GestionUsuarios.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Calidad/RegistroRequerimientos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Calidad/ReporteRequerimientos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/ConfigEstructura/ConfFactorRiesgo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/ConfigEstructura/ConfPerfilVariable.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/ConfigEstructura/PrmCategorias.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/ConfigEstructura/PrmEstructuraArchivo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/ConfigEstructura/PrmRelaciones.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/ConfigEstructura/PrmSenales.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/ConfigEstructura/PrmVariables.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Eventos/AdminEventos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Eventos/Canales.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Eventos/Clases.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Eventos/ClasificacionN3.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Eventos/Estado.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Eventos/EventosVsUsuario.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Eventos/GeneradorEvento.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Eventos/LNegocio.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Eventos/ReporteConsolidado.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Eventos/ReporteEventos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Eventos/Servicios.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Eventos/SubClases.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Eventos/SubLNegocio.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Eventos/SubServicios.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/CausaEfecto.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/CerrarPeriodo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/Estrategia.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/Gestion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/Indicadores.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/MenuCMI.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/ObjetivoEstrategico.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/Parametrizacion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/PlanAccion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/PlanEstrategico.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/RptCausaEfecto.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/RptCuadorMandoIntegral.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/RptIndicadoresSinResultado.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/RptObjetivos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/RptObjetivosEstrategicos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/RptObjetivosVrsRiesgos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/RptPlanesResponsales.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/Seguimiento.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Gestion/VisionEmpresa.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/ManejoExcepciones/DefaultExcepciones.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Notificaciones/Admin/NtfAdmCorreosDestino.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Notificaciones/Admin/NtfAdmCorreosEnviados.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Parametrizacion/Admin/PrmAdmCargos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Parametrizacion/Admin/PrmAdmCiudades.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Parametrizacion/Admin/PrmAdmDepartamentos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Parametrizacion/Admin/PrmAdmDiasNoLaborables.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Parametrizacion/Admin/PrmAdmHorasLaborables.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Parametrizacion/Admin/PrmAdmJerarquiaOrg.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Parametrizacion/Admin/PrmAdmOficinas.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Parametrizacion/Admin/PrmAdmOtrosTipos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Parametrizacion/Admin/PrmAdmPaises.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Parametrizacion/Admin/PrmAdmParamColores.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Parametrizacion/Admin/PrmAdmRegiones.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Parametrizacion/Admin/PrmAdmTiposDocumentos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Perfilamiento/CargueArchivo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Perfilamiento/PrmPerfiles.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Perfilamiento/ReporteDetalleCalificacion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Perfilamiento/ReporteFactorSenal.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Perfilamiento/ReporteHistInspektor.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Perfilamiento/ReporteModificaciones.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Perfilamiento/ReportePerfiles.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Perfilamiento/ReportePerfilesDetallado.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Perfilamiento/SenalAlertaComparativa.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Perfilamiento/SenalAlertaManual.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Acm/GestionAcm.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Acm/ReporteAcm.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/Iframe/QuestionsIframe.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/OrigenNoConformidad.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmActividad.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmAsocCaracterizacion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmCadenaValor.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmCalificacionEvaluaciones.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmCriterioCompetencias.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmCriterioProveedor.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmCriteriosDesempeno.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmCriterioServicio.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmCrlDocument.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmEncuestas.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmEntrada.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmGestionEvaluacionCompetencia.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmGestionEvaluacionDesempeño.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmGestionEvaluacionProveedor.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmGestionEvaluacionServicio.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmIndicador.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdminPlanMejoramiento.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdminRegistroNoConformidad.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmMacroproceso.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmMapaProceso.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmMatrizIndicadores.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmObjetivoCalidad.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmPerfilCalidad.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmPoliticaCalidad.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmProcedimiento.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmProceso.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmSalida.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmSeguimientoIndicador.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmSubproceso.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcAdmValorVariable.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcCrlInfraestructura.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcCrlProductoNoConforme.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcCrlPropiedadClienteProveedor.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcProgramaCapacitacion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/PrcVerCaracterizacion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Admin/RPTreporteNoConformidades.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Reportes/RPTreporteControlInfraestructura.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Reportes/RPTreporteIndicadoresMetasCumplidas.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Reportes/RPTreporteIndicadoresMetasIncumplidas.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Reportes/RPTreporteIndicadoresPorProceso.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Reportes/RPTreporteInformacionGeneral.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Reportes/RPTreporteSeguimientoEvaluacionDesempeño.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Proceso/Reportes/RPTreporteSeguimientoPlanFormacion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Reportes/RPTreporteDocumentosVigentes.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/AdminAnulacionRiesgo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/AdminAreas.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/AdminConsolidadoRiesgos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/AdminControles.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/AdminCumplimiento.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/AdminMapaRiesgos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/AdminReporte.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/AdminResponsableRiesgo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/AdminRiesgos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/CategoriaVariablesControl.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/FrecuenciavsEventos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/HistoricoRiesgo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParCargaMasiva.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParConDesviaciones.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParConLimites.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParConPeriodicidad.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParConPorcentajeCalificacion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParEveClaseEvento.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParEveTipoPerdida.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParGruposTrabajo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParGruposTrabajoParam.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParLegEstado.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParLegTipoLegislacion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParPlaAccEstado.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParPlaAccTipoRecurso.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParPlaEvaEstado.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParPlaEvaTipoPrueba.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParRieCausas.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParRieClasificacionGeneralRiesgo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParRieClasificacionParticularRiesgo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParRieClasificacionRiesgo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParRieConsecuencias.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParRieFactorRiesgoLaft.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParRieFactorRiesgoOperativo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParRieImpacto.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParRieProbabilidad.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParRieRiesgoAsociadoSarlaft.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParRieRiesgoAsociadoSaro.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParRieSubFactorRiesgoOperativo.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParRieTipoEventoSaro.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ParRieTratamiento.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/Tratamientos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/VariablesCalificacionControl.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/VariablesxCategoriaControl.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Admin/ViewImg/ViewImg.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/CuadroMando/CuadroMando.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/CuadroMando/ViewDetalleControl/ViewDetalleControl.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/CuadroMando/ViewDetalleIndicador/ViewDetalleIndicador.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/CuadroMando/ViewDetalleRiesgos/DetalleRiesgos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Gestion/GestionRiesgoIndicador.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Indicadores/RiesgoIndicador.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Riesgos/Seguimiento/SeguimientoRiesgoIndicador.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminAnalisisClientes.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminArchivoExcel.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminArchivoKnowClient.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminAtributos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminAuditoria.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminConteoRegistros.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminEstadisticas.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminFactorRiesgoPerfilSegmento.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminFormCliente.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminFormClienteCopidrogas.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminFormClienteWillis.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminFormClienteWillisFCC.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminFormClienteZurich.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminListas.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminProcesos.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminRegistroOperacion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminROIManual.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminSegmentacion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminTipoLista.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminUpdateListas.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/AdminVerSegmentacion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/ConsultarFormCliente.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/ConsultarFormClienteCopidrogas.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/ConsultarFormClienteWillis.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/ConsultarFormClienteZurich.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/FormularioConocimientoCliente.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/HomeAdmin.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/Imagen.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/Reporte.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/ReporteKnowCliente.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/ReporteKnowClienteCopidrogas.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/ReporteKnowClienteWillis.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/ReporteKnowClienteZurich.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/RpteConsolidadoSarlaft.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/RpteDetalleSarlaft.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/RpteRegistroSarlaft.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Admin/RpteTrazaSarlaft.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Consultor/ConsultorListas.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Consultor/ConsultorRegistroOperacion.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Consultor/HomeConsultor.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sarlaft/Consultor/Reporte.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sitio/Login.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/Sitio/ReestablecerContrasena.aspx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Formularios/WebService/AutoCompletar.asmx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Aplicacion/Abajo.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Aplicacion/Arriba.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Aplicacion/Fondo1.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Aplicacion/Fondo2.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Aplicacion/Gears.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Aplicacion/Igual.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Aplicacion/impacto.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Aplicacion/MapaProceso.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Aplicacion/Necesidades.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Aplicacion/probabilidad.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Aplicacion/Satisfaccion.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Aplicacion/SinInfo.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Aplicacion/underconstruction.jpg">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Iconos/icono_afiliados.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Iconos/icono_configurar.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Iconos/icono_consultar.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Iconos/icono_Correo-e2.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Iconos/icono_eliminar.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Iconos/icono_facturar2.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Iconos/icono_guardar.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Iconos/icono_imprimir.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Iconos/icono_listado.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Iconos/icono_modificar.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Iconos/icono_principal.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Iconos/SherlockIco.ico">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Add.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/aim_away.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Alerta.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/AlertRed.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/apply.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Apps-Search-And-Replace-icon.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/arrow_right.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/att.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Audit.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/auditoria.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/auditoria2.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/auditoria3.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/backhome.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/binoculares.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/BuscarWillis.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Button Warning-01 %281%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Button Warning-01.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Button-Next-icon.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Button-Previous-icon.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/cancel.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/cancelar.jpg">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/candado open.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/candado.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/collapse.jpg">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/conocimiento.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Consoliado.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Controles.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/control_stop_blue.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Copia de Button Warning-01 %281%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Copia de Button Warning-01.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Copia de dialog-warning %281%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Copia de dialog-warning %282%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Copia de notification_warning %281%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Copia de notification_warning.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Copia de warning %281%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Copia de warning %282%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Copia de Warning %283%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/CrearFormularioWillis.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/DateTime.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/delete %281%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/delete.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/delete2.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/deletecell.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/deletemail.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/delete_table.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/dialog-close1.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/dialog-close2.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/dialog-close3.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/dialog-warning %281%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/dialog-warning %282%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/dialog-warning.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/download.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/downloads.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/download_folder.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/edit-find-replace.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/edit-select-all.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/edit.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/editar2.jpg">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/eliminar.jpg">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/eliminar2.jpg">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/email.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Email2.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/err.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Eventos.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/events.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/excel.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/exit.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/expand.jpg">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/expandido1.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/expandido2.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/expandir1.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/expandir2.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/file.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/flecha.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/FlowChart.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/group.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/group_edit.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/guardar.jpg">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/guardar.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/history.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icono_afiliados.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icono_cancelar.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icono_configurar.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icono_consultar.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icono_Correo-e2.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icono_eliminar.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icono_facturar2.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icono_guardar.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icono_imprimir.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icono_listado.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icono_modificar.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icono_principal.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icontexto-message-types-alert-orange.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icontexto-message-types-alert-red.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icontexto-message-types-error-orange.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icontexto-message-types-info-orange.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icontexto-message-types-question-orange.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icontexto-message-types-wait-orange.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icontexto-webdev-about.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icontexto-webdev-alert.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icontexto-webdev-cancel.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/icontexto-webdev-ok.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Indicadores.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/inf.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Info-48x48.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/information1.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/information2.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/information3.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/information4.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/insert.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/instrumentos.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/jpg.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/KeychainAccess.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Light_Alert.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/listas.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Literal.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Llave.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/loading.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/lock.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/lupa.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/mapaweb.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/minus.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/node-select-child.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/nodo-sin-hijos.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/nodo-sin-hijos2.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/nothing.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/notification_warning %281%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/notification_warning.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/onebit_36.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/onebit_47.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/organization %2824%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Organization-Chart.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/organization.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/paint.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/pdfImg.jpg">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Planner.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/plus.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/print.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/regular_folder %2816%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/reloj.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Riesgos.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/schedule.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/segmentacion.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/seleccionar.jpg">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/select.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/select.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/SelectAll.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Sininf.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Stop.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/suc.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/suscribe.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/switch-off-icon.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/switch-on-icon.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/switch-turn-off-icon.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/table_select_row.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/timespan.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/TituloWillis.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Trash-icon.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/triangulo 1.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/triangulo 2.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/undo-icon32x32.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/unlock.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/upload.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/uploads_folder %281%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/uploads_folder.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/us.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/user %281%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/User %281-24%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/user %2824%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/User.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/user2.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/users.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/UserTime.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/usuarios.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/warning %281%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/warning %282%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Warning %283%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Warning %284%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/warning %285%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/warning.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/Warning2.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/workflow %2824%29.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Icons/workflow.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Logos/bienvenido.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Logos/logo-sherlock.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Logos/LogoRisk.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Logos/LogoSE.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Logos/LogoSherlock.jpg">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Logos/Risk.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Logos/Risk.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Logos/Risk2.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Logos/RiskConsultingLogo.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Logos/RiskConsultingLogoUL.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/Logos/Titulo.png">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/tab_active.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/tab_hover.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/tab_Inactive.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/tab_left_active.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/tab_left_hover.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/tab_left_inactive.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/tab_right_active.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/tab_right_hover.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Imagenes/tab_right_inactive.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="MastersPages/Admin.Master">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="MastersPages/Sitio.Master">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/11/2022 07:31:28</publishTime>
+    </File>
+    <File Include="ReporteDataSer.xsc">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="ReporteDataSer.xss">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Scripts/Chart.js">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Scripts/DiagramCommon.js">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.js">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui.js">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Scripts/js/bootstrap.js">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Scripts/js/bootstrap.min.js">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Scripts/js/npm.js">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Scripts/jsapi.js">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/AdminSitio.css">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/css/bootstrap-theme.css">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/css/bootstrap-theme.css.map">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/css/bootstrap-theme.min.css">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/css/bootstrap-theme.min.css.map">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/css/bootstrap.css">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/css/bootstrap.css.map">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/css/bootstrap.min.css">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/css/bootstrap.min.css.map">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/FormatoPopUp.css">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/FormatoTablas.css">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/jquery-ui.css">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/MastersPages.css">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/MyStyleSheet.css">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="Styles/Tab.css">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/dash.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/dashminus.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/dashplus.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/i.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/l.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/lminus.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/lplus.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/minus.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/noexpand.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/plus.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/r.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/rminus.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/rplus.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/t.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/tminus.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="TreeLineImages/tplus.gif">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/AdminUsers/AgregarUsuario.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/AdminUsers/CambioContrasena.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/AdminUsers/ConsultarUsuario.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/AdminUsers/Roles.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Alertas/SAlertas.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Alertas/SubirArchivo.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Calidad/GestionRequerimientos.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Calidad/GestionUsuarios.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Calidad/RegistroRequerimientos.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Calidad/ReporteRequerimientos.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/ConfigEstructura/ConfEstructuraArchivo.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/ConfigEstructura/ConfFactorRiesgo.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/ConfigEstructura/ConfigPerfilEstructArch.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/ConfigEstructura/ConfPerfilVariable.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/ConfigEstructura/Parametrizacion.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/ConfigEstructura/Senales.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/ConfigEstructura/TipoParametro.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Eventos/Canales.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Eventos/Clases.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Eventos/ClasificacionN3.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Eventos/Estado.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Eventos/Eventos.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Eventos/EventosVsUsuario.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Eventos/GeneradorEvento.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Eventos/LNegocio.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Eventos/ReporteConsolidado.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Eventos/ReporteEventos.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Eventos/Servicios.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Eventos/SubClase.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Eventos/SubLNegocio.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Eventos/SubServicios.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/CausaEfecto.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/CerrarPeriodo.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/Estrategia.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/Gestion.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/Indicadores.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/MenuCMI.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/ObjetivoEstrategico.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/ParametrizacionOT.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/PlanAccion.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/PlanEstrategico.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/RptCausaEfecto.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/RptCuadorMandoIntegral.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/RptIndicadoresSinResultado.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/RptObjetivos.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/RptObjetivosEstrategicos.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/RptObjetivosVrsRiesgos.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/RptPlanesResponsales.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/Seguimiento.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/Gestion/VisionEmpresa.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/AuditoriaGestionTemas.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/Auuditoriaa.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/CalificacionControl.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/CalificacionControlIni.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/Ciclo.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/Enfoque.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/Estandar.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/GestionAuditoria.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/GruposAuditoria.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/MAuditoriaGestion.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/Naturaleza.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/Objetivo.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/OtrosFactores.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/PlanAuditoria.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/Planeacion.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/PlanesAccion.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/Recomendaciones.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/ReporteAuditoria.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/ReporteAuditoriaAnulada.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/ReporteAuditoriaPlan.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/ReporteAuditoriaSeg.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/ReporteAuditoriaSeg3.ascx">
+      <publishTime>01/11/2022 07:31:25</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/ReporteHallazgoVsPlanAccion.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/ReportePlanAuditoria.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/Reportes/GestionAuditoria.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/Reportes/ReporteHallazgos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/Reportes/ReporteRecomendaciones.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/ReporteSeguimiento.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/RiesgoInherente.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/Seguimiento.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/TipoEstandar.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/MAuditoria/Verificacion.ascx">
+      <publishTime>01/12/2022 18:23:21</publishTime>
+    </File>
+    <File Include="UserControls/Notificaciones/CorreosDestino.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Notificaciones/CorreosEnviados.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Parametrizacion/Cargos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Parametrizacion/Ciudades.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Parametrizacion/Departamentos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Parametrizacion/DiasNoLaborables.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Parametrizacion/HorasLaborables.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Parametrizacion/JerarquiaOrganizacional.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Parametrizacion/Oficinas.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Parametrizacion/OtrosTipos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Parametrizacion/Paises.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Parametrizacion/ParamColores.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Parametrizacion/Regiones.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Parametrizacion/TiposDocumentos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Perfilamiento/CargueArchivoPerfiles.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Perfilamiento/Perfiles.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Perfilamiento/ReporteDetalleCalificacion.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Perfilamiento/ReporteFactorSenal.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Perfilamiento/ReporteHistInspektor.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Perfilamiento/ReporteModificaciones.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Perfilamiento/ReportePerfiles.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Perfilamiento/ReportePerfilesDetalle.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Perfilamiento/SenalAlertaComparativa.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Perfilamiento/SenalAlertaManual.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Acm/GestionAcm.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Acm/ReporteAcm.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/Actividad.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/AsocCaracterizacion.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/CadenaValor.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/CalificacionEvaluaciones.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/ConsultarProcesos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/CriterioCompetencias.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/CriterioProveedor.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/CriteriosDesempeno.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/CriteriosServicios.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/Encuestas.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/Entrada.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/Indicador.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/Macroproceso.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/Objetivo.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/OrigenNoConformidad.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/PerfilCalidad.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/PoliticaCalidad.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/Procedimientos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/Proceso.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/Salida.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/Subproceso.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Param/ValorVariableIndicador.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/ControlDocumentoVersiones.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/ControlInfraestructura.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/ControlProductoNoConforme.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/CrlPropiedadClienteProveedor.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/GestionEvaluacionCompetencia.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/GestionEvaluacionDesempeño.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/GestionEvaluacionProveedor.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/GestionEvaluacionServicio.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/GVdataPrint.aspx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/MatrizIndicadores.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/PlanMejoramiento.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/Popup/PopupEvaluacionDesempeño.aspx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/ProgramaCapacitacion.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/RegistroNoConformidad.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/SeguimientoIndicadores.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/ucMapaProcesos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Procesos/VerCaracterizacion.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Reportes/ReporteControlInfraestructura.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Reportes/ReporteIndicadoresMetasCumplidas.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Reportes/ReporteIndicadoresMetasIncumplidas.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Reportes/ReporteIndicadoresPorProceso.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Reportes/ReporteInformacionGeneral.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Reportes/ReporteNoConformidades.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Reportes/ReporteSeguimientoEvaluacionDesempeño.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Proceso/Reportes/ReporteSeguimientoPlanFormacion.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Reportes/RPTreporteDocumentosVigentes.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/AnulacionRiesgo.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/Areas.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/CargaMasiva.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/CategoriaVariableControl.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ConfigMapaRiesgos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ConsolidadoRiesgos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/Control.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/CuadroMando/Consolidado/Consolidado.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/CuadroMando/Controles/Controles.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/CuadroMando/Controles/ViewDetalleControl/ViewDetalleControl.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/CuadroMando/CuadroMando.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/CuadroMando/Eventos/Eventos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/CuadroMando/Indicadores/Indicadores.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/CuadroMando/Indicadores/ViewDetalleIndicador/ViewDetalleIndicador.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/CuadroMando/Riesgos/Riesgos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/CuadroMando/Riesgos/ViewDetalleRiesgos/DetalleRiesgos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/Cumplimiento.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/FrecuenciaVsEventos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/Gestion/GestionRiesgoIndicador.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/HistoricoRiesgo.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/Iframe/IFcategorias.aspx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/Indicadores/RiesgoIndicador.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParConDesviaciones.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParConLimites.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParConPeriodicidad.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParConPorcentajeCalificacion.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParEveClaseEvento.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParEveTipoPerdida.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParGruposTrabajo.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParGruposTrabajoParam.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParLegEstado.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParLegTipoLegislacion.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParPlaAccEstado.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParPlaAccTipoRecurso.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParPlaEvaEstado.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParPlaEvaTipoPrueba.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParRieCausas.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParRieClasificacionGeneralRiesgo.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParRieClasificacionParticularRiesgo.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParRieClasificacionRiesgo.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParRieConsecuencias.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParRieFactorRiesgoLaft.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParRieFactorRiesgoOperativo.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParRieImpacto.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParRieProbabilidad.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParRieRiesgoAsociadoSarlaft.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParRieRiesgoAsociadoSaro.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParRieSubFactorRiesgoOperativo.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParRieTipoEventoSaro.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ParRieTratamiento.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/Reporte.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ResponsableRiesgo.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/Riesgos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/Seguimiento/SeguimientoRiesgoIndicador.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/Tratamientos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/VariablesCalificacionControl.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/VariablexCategoriaControl.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Riesgos/ViewImg/ViewImg.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/AnalisisClientes.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/ArchivoExcel.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/ArchivoKnowClient.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/Atributos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/Auditoria.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/ConsultarFormCliente.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/ConsultarFormClienteCopidrogas.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/ConsultarFormClienteWillis.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/ConsultarFormClienteZurich.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/ConsultarListas.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/ConteoRegistros.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/Estadisticas.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/FactorRiesgoPerfilSegmento.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/FormCliente.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/FormClienteCopidrogas.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/FormClienteWillis.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/FormClienteWillisFCC.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/FormClienteZurich.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/FormularioConocimientoCliente.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/Imagen.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/Procesos.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/RegistroOperacion.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/Reporte.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/ReporteKnowCliente.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/ReporteKnowClienteCopidrogas.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/ReporteKnowClienteWillis.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/ReporteKnowClienteZurich.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/ROIManual.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/RpteConsolidadoSarlaft.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/RpteDetalleSarlaft.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/RpteRegistroSarlaft.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/RpteTrazaSarlaft.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/Segmentacion.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/TipoLista.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/UpdateListas.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sarlaft/VerSegmentacion.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sitio/Cabecera.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sitio/Home.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sitio/Login.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sitio/MenuAdmin.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sitio/OKMessageBox.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="UserControls/Sitio/RestablecerContrasena.ascx">
+      <publishTime>01/11/2022 07:31:26</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/13/2022 13:43:24</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

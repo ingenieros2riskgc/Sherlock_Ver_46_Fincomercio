@@ -15,3 +15,12 @@ C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDatos\obj\Deb
 C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDatos\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDatos\obj\Debug\DAL.dll
 C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\clsDatos\obj\Debug\DAL.pdb
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\clsDatos\bin\Debug\DAL.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\clsDatos\bin\Debug\DAL.pdb
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\clsDatos\bin\Debug\DTO.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\clsDatos\bin\Debug\DTO.pdb
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\clsDatos\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\clsDatos\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\clsDatos\obj\Debug\DAL.csproj.CopyComplete
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\clsDatos\obj\Debug\DAL.dll
+D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\clsDatos\obj\Debug\DAL.pdb
