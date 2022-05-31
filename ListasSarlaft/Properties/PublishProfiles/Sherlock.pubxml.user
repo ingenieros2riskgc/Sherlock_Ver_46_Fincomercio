@@ -10,7 +10,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
   </PropertyGroup>
   <ItemGroup>
     <File Include="Archivos/Error/Error.txt">
-      <publishTime>01/07/2022 09:26:59</publishTime>
+      <publishTime>01/12/2022 18:53:10</publishTime>
     </File>
     <File Include="BDupdate/CambiosBD_V2.xlsx">
       <publishTime>01/03/2022 07:35:49</publishTime>
@@ -37,13 +37,16 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>01/03/2022 16:33:43</publishTime>
     </File>
     <File Include="bin/DocumentFormat.OpenXml.dll">
-      <publishTime>01/03/2022 07:35:51</publishTime>
+      <publishTime>01/12/2022 18:53:11</publishTime>
     </File>
     <File Include="bin/DTO.dll">
       <publishTime>01/03/2022 16:33:41</publishTime>
     </File>
     <File Include="bin/DTO.pdb">
       <publishTime>01/03/2022 16:33:41</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.SqlServer.Types.resources.dll">
+      <publishTime>01/12/2022 18:53:11</publishTime>
     </File>
     <File Include="bin/Excel.dll">
       <publishTime>01/03/2022 07:35:51</publishTime>
@@ -58,13 +61,13 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>01/03/2022 07:35:52</publishTime>
     </File>
     <File Include="bin/ListasSarlaft.dll">
-      <publishTime>01/07/2022 11:14:01</publishTime>
+      <publishTime>01/12/2022 18:56:52</publishTime>
     </File>
     <File Include="bin/ListasSarlaft.pdb">
-      <publishTime>01/07/2022 11:14:01</publishTime>
+      <publishTime>01/12/2022 18:56:52</publishTime>
     </File>
     <File Include="bin/ListasSarlaft.XmlSerializers.dll">
-      <publishTime>01/07/2022 11:14:05</publishTime>
+      <publishTime>01/12/2022 18:56:57</publishTime>
     </File>
     <File Include="bin/Microsoft.ReportViewer.Common.dll">
       <publishTime>10/04/2013 12:38:48</publishTime>
@@ -79,7 +82,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>10/04/2013 12:38:48</publishTime>
     </File>
     <File Include="bin/Microsoft.SqlServer.Types.dll">
-      <publishTime>01/03/2022 07:35:52</publishTime>
+      <publishTime>01/12/2022 18:53:11</publishTime>
     </File>
     <File Include="bin/System.Configuration.dll">
       <publishTime>03/18/2010 19:31:26</publishTime>
@@ -2011,7 +2014,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>01/03/2022 07:35:51</publishTime>
     </File>
     <File Include="UserControls/MAuditoria/Verificacion.ascx">
-      <publishTime>01/03/2022 07:35:51</publishTime>
+      <publishTime>01/12/2022 18:53:10</publishTime>
     </File>
     <File Include="UserControls/Notificaciones/CorreosDestino.ascx">
       <publishTime>01/03/2022 07:35:51</publishTime>
@@ -2536,7 +2539,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>01/03/2022 07:35:51</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/07/2022 11:14:07</publishTime>
+      <publishTime>01/12/2022 18:57:00</publishTime>
     </File>
   </ItemGroup>
 </Project>

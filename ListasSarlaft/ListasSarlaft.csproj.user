@@ -9,11 +9,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
-<<<<<<< HEAD
-    <NameOfLastUsedPublishProfile>D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Properties\PublishProfiles\FolderProfile1.pubxml</NameOfLastUsedPublishProfile>
-=======
-    <NameOfLastUsedPublishProfile>Sherlock</NameOfLastUsedPublishProfile>
->>>>>>> 25a1444404cf69380918404c5df719a8fb3de6c5
+    <NameOfLastUsedPublishProfile>C:\Users\Juanes\Desktop\fincomercio\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Properties\PublishProfiles\Sherlock.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

@@ -5048,19 +5048,3 @@ Sintaxis incorrecta cerca de ')'.,    en System.Data.OleDb.OleDbCommand.ExecuteC
    en ListasSarlaft.Classes.cDataBase.conectar() en D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cDataBase.cs:línea 31
    en ListasSarlaft.Classes.cCuenta.MensajeLogin(String Usuario) en D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 181
 11/01/2022 7:36:08
-Referencia a objeto no establecida como instancia de un objeto.,    en ListasSarlaft.Classes.cPropiedades.get_IdUsuario() en D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cPropiedades.cs:línea 14
-   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 1000
-14/01/2022 15:38:23
-Sintaxis incorrecta cerca de ')'.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
-   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
-   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
-   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
-   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
-   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
-   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
-   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
-   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
-   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
-   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cDataBase.cs:línea 45
-   en ListasSarlaft.Classes.cCuenta.permisosConsulta(String IdFormulario) en D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\ListasSarlaft\Classes\cCuenta.cs:línea 389
-14/01/2022 15:38:24
