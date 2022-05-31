@@ -426,7 +426,7 @@
                     <table id="TbConEventos" runat="server" visible="false" align="center">
                         <tr>
                             <td align="center">
-                                <asp:TabContainer ID="TabContainerEventos" runat="server" ActiveTabIndex="1" Font-Names="Calibri"
+                                <asp:TabContainer ID="TabContainerEventos" runat="server" ActiveTabIndex="0" Font-Names="Calibri"
                                     Font-Size="Small" Width="800px" aling="left" AutoPostBack="true" OnActiveTabChanged="TabContainerEventos_ActiveTabChanged">
                                     <asp:TabPanel ID="TabPanelCreaEvento" runat="server" HeaderText="Creación Evento"
                                         Font-Names="Calibri" Font-Size="Small">
@@ -1611,7 +1611,7 @@
             </tr>
             <tr id="trRiesgosEventos" runat="server" visible="false" align="center">
                 <td>
-                    <asp:TabContainer ID="TabContainer1" runat="server" ActiveTabIndex="0" Font-Names="Calibri"
+                    <asp:TabContainer ID="TabContainer1" runat="server" ActiveTabIndex="3" Font-Names="Calibri"
                         Font-Size="Small" Width="900px">
                         <asp:TabPanel ID="TabPanel1" runat="server" HeaderText="Justificación cambios" Font-Names="Calibri"
                             Font-Size="Small">

@@ -1916,9 +1916,11 @@ namespace ListasSarlaft.UserControls.Eventos
                        DropDownList16.SelectedValue.ToString(), TextBox53.Text.Trim(), Label55.Text, DropDownList23.SelectedItem.Value, 
                         DropDownList29.SelectedItem.Value, TextBox17.Text.Trim(), ddlClasificacionN3.SelectedItem.Value);
                     if (lblIdDependencia1.Text != "" && string.IsNullOrEmpty(lblExisteResponsableNotificacion.Text))
+                    {
                         boolEnviarNotificacion(9, Convert.ToInt16("0"), Convert.ToInt16(lblIdDependencia1.Text.Trim()), "",
                             "Ha sido asignado como responsable del Evento: <br/><B>Código Evento: </B>" + Label55.Text.Trim() +
-                            "<br/><B> Descripción del evento: </B>"+ TextBox44.Text.Trim() + "<br/>En la aplicación de Sherlock para la Gestión de Riesgos y Control Interno.<br />");
+                            "<br/><B> Descripción del evento: </B>" + TextBox44.Text.Trim() + "<br/>En la aplicación de Sherlock para la Gestión de Riesgos y Control Interno.<br />");
+                    }
                     
                     loadGridEventos();
                     loadInfoEventos();
@@ -1934,9 +1936,19 @@ namespace ListasSarlaft.UserControls.Eventos
                            "<br/><B> Descripción del evento: </B>" + TextBox44.Text.Trim() + "<br/>En la aplicación de Sherlock para la Gestión de Riesgos y Control Interno.<br/>");
                 if(DropDownList16.SelectedValue == "2")
                     {
+                        string descripcionPlanACCION = "";
+                        if (InfoGridPlanAccionEvento.Rows.Count > 0)
+                        {
+                            descripcionPlanACCION = "<br/><B> Plan de Acción:</B> "+ InfoGridPlanAccionEvento.Rows[InfoGridPlanAccionEvento.Rows.Count - 1]["DescripcionAccion"].ToString().Trim();
+                        }
+                        else {
+                            descripcionPlanACCION = "<br/><B> Plan de Acción:</B> El evento se cerro sin plan de accion.";
+                        }
+                       
+
                         boolEnviarNotificacion(37, Convert.ToInt16("0"), Convert.ToInt16(Session["IdJerarquia"].ToString()), "",
                                                    "Se ha realizado el cierre del Evento: <br /><B>Código Evento: </B>" + Label55.Text.Trim() +
-                                                   "<br/><B> Descripción del evento: </B>" + TextBox44.Text.Trim() + "<br/>En la aplicación de Sherlock para la Gestión de Riesgos y Control Interno.<br/>");
+                                                   "<br/><B> Descripción del evento: </B>" + TextBox44.Text + descripcionPlanACCION + "<br/>En la aplicación de Sherlock para la Gestión de Riesgos y Control Interno.<br/>");
                     }
                     /*loadGridEventos();
                     loadInfoEventos();*/
