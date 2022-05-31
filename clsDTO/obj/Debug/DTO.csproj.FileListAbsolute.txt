@@ -15,3 +15,9 @@ D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincome
 D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\clsDTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\clsDTO\obj\Debug\DTO.dll
 D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\clsDTO\obj\Debug\DTO.pdb
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsDTO\bin\Debug\DTO.dll
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsDTO\bin\Debug\DTO.pdb
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsDTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsDTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsDTO\obj\Debug\DTO.dll
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsDTO\obj\Debug\DTO.pdb

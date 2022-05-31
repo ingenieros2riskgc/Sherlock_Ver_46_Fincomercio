@@ -30,3 +30,14 @@ D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincome
 D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\clsLogica\obj\Debug\DLL.csproj.CopyComplete
 D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\clsLogica\obj\Debug\DLL.dll
 D:\OneDrive - 848096_1398524_DATALAFT_SAS\Documentos\Dev\Sherlock_Ver_46_Fincomercio\clsLogica\obj\Debug\DLL.pdb
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\bin\Debug\DLL.dll
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\bin\Debug\DLL.pdb
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\bin\Debug\DAL.dll
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\bin\Debug\DTO.dll
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\bin\Debug\DAL.pdb
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\bin\Debug\DTO.pdb
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\obj\Debug\DLL.csproj.AssemblyReference.cache
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\obj\Debug\DLL.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\obj\Debug\DLL.csproj.CopyComplete
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\obj\Debug\DLL.dll
+C:\Users\Administrador\Desktop\Fincomercio\Sherlock_Ver_46_Fincomercio\clsLogica\obj\Debug\DLL.pdb
